@@ -7,7 +7,7 @@ course: "INFO 7375 - Prompt Engineering for Generative AI"
 institution: "Northeastern University"
 ---
 
-\newpage
+
 
 # Executive Summary
 
@@ -32,7 +32,6 @@ This project implements a novel **reinforcement learning-enhanced multi-agent co
 | Convergence Episode | 11 |
 | Best Episode | 256 |
 
-\newpage
 
 # Table of Contents
 
@@ -51,7 +50,6 @@ This project implements a novel **reinforcement learning-enhanced multi-agent co
 13. [References](#references)
 14. [Appendices](#appendices)
 
-\newpage
 
 # 1. Introduction
 
@@ -87,7 +85,6 @@ This project develops an RL-enhanced orchestration system that:
 3. **Hybrid RL Approach**: Combines value-based learning (DQN) at the pattern level with Bayesian exploration (Thompson Sampling) at the agent level
 4. **Comprehensive Evaluation**: 500 episodes with statistical validation, pattern analysis, and reproducibility verification
 
-\newpage
 
 # 2. System Architecture
 
@@ -98,34 +95,34 @@ This project develops an RL-enhanced orchestration system that:
 │                    RL Agent System                          │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
-│  ┌──────────────┐         ┌──────────────┐                │
-│  │  DQN Agent   │◄───────►│State Encoder │                │
-│  │   (Q-Net +   │         │  (32-dim)    │                │
-│  │   Target)    │         └──────────────┘                │
-│  └──────────────┘                │                         │
-│         │                        │                         │
-│         ▼                        ▼                         │
-│  ┌─────────────────────────────────────────┐               │
-│  │     RL Orchestrator                     │               │
-│  │  • Pattern Selection (5 strategies)     │               │
-│  │  • Reward Calculation                   │               │
-│  │  • Experience Management                │               │
-│  │  • Three-Phase Exploration              │               │
-│  └─────────────────────────────────────────┘               │
-│         │                        │                         │
-│         ▼                        ▼                         │
-│  ┌──────────────┐        ┌──────────────┐                │
-│  │  Thompson    │        │  Agent Team  │                │
-│  │  Sampler     │◄──────►│  (4 Agents)  │                │
-│  │  (Beta Dist) │        └──────────────┘                │
-│  └──────────────┘               │                         │
-│                                  ▼                         │
-│                    ┌─────────────────────────┐            │
-│                    │ • Research Agent        │            │
-│                    │ • Writing Agent         │            │
-│                    │ • Editor Agent          │            │
-│                    │ • Technical Agent       │            │
-│                    └─────────────────────────┘            │
+│  ┌──────────────┐         ┌──────────────┐                  │
+│  │  DQN Agent   │◄───────►│State Encoder │                  │
+│  │   (Q-Net +   │         │  (32-dim)    │                  │
+│  │   Target)    │         └──────────────┘                  │
+│  └──────────────┘                │                          │
+│         │                        │                          │
+│         ▼                        ▼                          │
+│  ┌─────────────────────────────────────────┐                │
+│  │     RL Orchestrator                     │                │
+│  │  • Pattern Selection (5 strategies)     │                │
+│  │  • Reward Calculation                   │                │
+│  │  • Experience Management                │                │
+│  │  • Three-Phase Exploration              │                │
+│  └─────────────────────────────────────────┘                │
+│         │                        │                          │
+│         ▼                        ▼                          │
+│  ┌──────────────┐        ┌──────────────┐                   │
+│  │  Thompson    │        │  Agent Team  │                   │
+│  │  Sampler     │◄──────►│  (4 Agents)  │                   │
+│  │  (Beta Dist) │        └──────────────┘                   │
+│  └──────────────┘               │                           │
+│                                  ▼                          │
+│                    ┌─────────────────────────┐              │
+│                    │ • Research Agent        │              │
+│                    │ • Writing Agent         │              │
+│                    │ • Editor Agent          │              │
+│                    │ • Technical Agent       │              │
+│                    └─────────────────────────┘              │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -251,7 +248,6 @@ R(s,a,s') = 0.4·R_quality + 0.2·R_efficiency +
    - Episodes 0-59: Bonus for using under-explored patterns
    - Episodes 60+: Bonus for balanced pattern distribution
 
-\newpage
 
 # 3. Mathematical Formulation
 
@@ -414,7 +410,6 @@ Where:
 2. **Guided (30-59)**: Balance learned policy with exploration
 3. **Normal (60+)**: Trust learned policy with minimal exploration
 
-\newpage
 
 # 4. Reinforcement Learning Approaches
 
@@ -626,7 +621,6 @@ This is **Bayes-optimal** under certain assumptions.
 - Empirically performs well
 - Principled Bayesian approach
 
-\newpage
 
 # 5. Design Choices and Rationale
 
@@ -758,7 +752,6 @@ After 500 episodes: ε = 1.0 × 0.97^500 = 0.010 (minimum)
 - Need sufficient capacity for 32→5 mapping
 - Tested: 2 layers underperformed (slower learning)
 
-\newpage
 
 # 6. Experimental Design
 
@@ -932,7 +925,6 @@ for i in range(len(moving_avg) - 10):
         break
 ```
 
-\newpage
 
 # 7. Results and Analysis
 
@@ -1203,7 +1195,6 @@ Variance sources:
 3. All patterns explored in all runs
 4. Pattern preferences stable
 
-\newpage
 
 # 8. Challenges and Solutions
 
@@ -1681,7 +1672,6 @@ d = VC dimension of function class
 - W = number of weights ≈ 50,000
 - Sufficient samples with 10,000 experiences
 
-\newpage
 
 # 10. Future Work
 
@@ -1997,7 +1987,6 @@ while True:
 - Replay buffer with old data
 - Gradual model updates
 
-\newpage
 
 # 11. Ethical Considerations
 
@@ -2329,8 +2318,6 @@ If harmful output detected:
 6. Document learnings
 ```
 
-\newpage
-
 # 12. Conclusion
 
 ## 12.1 Summary of Contributions
@@ -2542,7 +2529,6 @@ This project demonstrates that reinforcement learning can effectively optimize m
 
 This work provides a solid foundation for future research in RL-enhanced agentic systems and demonstrates the practical viability of learned coordination strategies.
 
-\newpage
 
 # 13. References
 
@@ -2576,7 +2562,6 @@ This work provides a solid foundation for future research in RL-enhanced agentic
 
 15. Cybenko, G. (1989). "Approximation by superpositions of a sigmoidal function." *Mathematics of Control, Signals and Systems*, 2(4), 303-314.
 
-\newpage
 
 # 14. Appendices
 
