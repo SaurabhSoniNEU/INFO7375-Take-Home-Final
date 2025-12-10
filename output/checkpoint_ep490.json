@@ -1,0 +1,7173 @@
+{
+  "episode": 490,
+  "timestamp": "2025-12-10T15:11:45.521328",
+  "history": [
+    {
+      "episode": 1,
+      "task_type": "blog_post",
+      "reward": 0.8163666553000487,
+      "quality_score": 0.954699813281142,
+      "execution_time": 0.04228472709655762,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 2,
+      "task_type": "technical_article",
+      "reward": 0.795043180717607,
+      "quality_score": 0.9800708466227495,
+      "execution_time": 0.0027320384979248047,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 3,
+      "task_type": "marketing_copy",
+      "reward": 0.796192434436415,
+      "quality_score": 0.8801627523606734,
+      "execution_time": 0.010929107666015625,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 4,
+      "task_type": "research_summary",
+      "reward": 0.8595255789323094,
+      "quality_score": 0.9553617308304743,
+      "execution_time": 0.0005288124084472656,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 5,
+      "task_type": "tutorial",
+      "reward": 0.8553747009102627,
+      "quality_score": 0.9343635089742581,
+      "execution_time": 0.0017268657684326172,
+      "agent_sequence": [
+        1,
+        1,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 6,
+      "task_type": "blog_post",
+      "reward": 0.8578421305560299,
+      "quality_score": 0.9565612755288679,
+      "execution_time": 0.0003781318664550781,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 7,
+      "task_type": "technical_article",
+      "reward": 0.804088999371243,
+      "quality_score": 0.9727347866818287,
+      "execution_time": 0.001870870590209961,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 8,
+      "task_type": "marketing_copy",
+      "reward": 0.8031690467866737,
+      "quality_score": 0.8838031261524887,
+      "execution_time": 0.00037288665771484375,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 9,
+      "task_type": "research_summary",
+      "reward": 0.8649555731202652,
+      "quality_score": 0.9593615782833996,
+      "execution_time": 0.0006482601165771484,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 10,
+      "task_type": "tutorial",
+      "reward": 0.8525618836876636,
+      "quality_score": 0.9419193978961203,
+      "execution_time": 0.0024797916412353516,
+      "agent_sequence": [
+        0,
+        1,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 11,
+      "task_type": "blog_post",
+      "reward": 0.8639462939672987,
+      "quality_score": 0.9596772072381909,
+      "execution_time": 0.0002627372741699219,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 12,
+      "task_type": "technical_article",
+      "reward": 0.8233062398044398,
+      "quality_score": 1.0,
+      "execution_time": 9.298324584960938e-05,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 13,
+      "task_type": "marketing_copy",
+      "reward": 0.8030728036670596,
+      "quality_score": 0.8820548447390923,
+      "execution_time": 0.00015807151794433594,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 14,
+      "task_type": "research_summary",
+      "reward": 0.862587247646657,
+      "quality_score": 0.9564331779484787,
+      "execution_time": 9.894371032714844e-05,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 15,
+      "task_type": "tutorial",
+      "reward": 0.8694436560797285,
+      "quality_score": 0.9615654972451025,
+      "execution_time": 0.0001430511474609375,
+      "agent_sequence": [
+        1,
+        0,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 16,
+      "task_type": "blog_post",
+      "reward": 0.8901090688083361,
+      "quality_score": 0.991180397865908,
+      "execution_time": 7.390975952148438e-05,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 17,
+      "task_type": "technical_article",
+      "reward": 0.801053665461845,
+      "quality_score": 0.9614374719440011,
+      "execution_time": 7.104873657226562e-05,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 18,
+      "task_type": "marketing_copy",
+      "reward": 0.7967087056994335,
+      "quality_score": 0.8700308954100325,
+      "execution_time": 9.274482727050781e-05,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 19,
+      "task_type": "research_summary",
+      "reward": 0.8716193518500948,
+      "quality_score": 0.966756183786247,
+      "execution_time": 8.797645568847656e-05,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 20,
+      "task_type": "tutorial",
+      "reward": 0.8476265270695621,
+      "quality_score": 0.9330594640046463,
+      "execution_time": 0.00010275840759277344,
+      "agent_sequence": [
+        3,
+        0,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 21,
+      "task_type": "blog_post",
+      "reward": 0.8805622142989539,
+      "quality_score": 0.9781016034987039,
+      "execution_time": 0.00015783309936523438,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 22,
+      "task_type": "technical_article",
+      "reward": 0.8240449687926734,
+      "quality_score": 1.0,
+      "execution_time": 8.869171142578125e-05,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 23,
+      "task_type": "marketing_copy",
+      "reward": 0.8037741482389511,
+      "quality_score": 0.881698293292215,
+      "execution_time": 0.00011897087097167969,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 24,
+      "task_type": "research_summary",
+      "reward": 0.8641200126431324,
+      "quality_score": 0.9577792097008943,
+      "execution_time": 9.512901306152344e-05,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 25,
+      "task_type": "tutorial",
+      "reward": 0.8396417674166791,
+      "quality_score": 0.9221984240491335,
+      "execution_time": 0.00010704994201660156,
+      "agent_sequence": [
+        0,
+        1,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 26,
+      "task_type": "blog_post",
+      "reward": 0.8822679934124246,
+      "quality_score": 0.979712081077093,
+      "execution_time": 7.390975952148438e-05,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 27,
+      "task_type": "technical_article",
+      "reward": 0.8207449621633346,
+      "quality_score": 0.9944437586202389,
+      "execution_time": 7.414817810058594e-05,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 28,
+      "task_type": "marketing_copy",
+      "reward": 0.7956907273766303,
+      "quality_score": 0.8666491784481334,
+      "execution_time": 9.393692016601562e-05,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 29,
+      "task_type": "research_summary",
+      "reward": 0.8660186023204294,
+      "quality_score": 0.9595126942261675,
+      "execution_time": 8.797645568847656e-05,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 30,
+      "task_type": "tutorial",
+      "reward": 0.8841149274844357,
+      "quality_score": 0.9805233057885038,
+      "execution_time": 9.989738464355469e-05,
+      "agent_sequence": [
+        3,
+        1,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 31,
+      "task_type": "blog_post",
+      "reward": 0.8906367622931675,
+      "quality_score": 0.9900001395978397,
+      "execution_time": 0.00016498565673828125,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 32,
+      "task_type": "technical_article",
+      "reward": 0.7893954031475282,
+      "quality_score": 0.9409364610384294,
+      "execution_time": 0.0010209083557128906,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 33,
+      "task_type": "marketing_copy",
+      "reward": 0.8626699613302312,
+      "quality_score": 0.955770473035413,
+      "execution_time": 9.012222290039062e-05,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 34,
+      "task_type": "research_summary",
+      "reward": 0.7975642441764172,
+      "quality_score": 0.9559426975920483,
+      "execution_time": 7.987022399902344e-05,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 35,
+      "task_type": "tutorial",
+      "reward": 0.8663590901935181,
+      "quality_score": 0.9562464029306383,
+      "execution_time": 0.00010919570922851562,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 36,
+      "task_type": "blog_post",
+      "reward": 0.9438490831808815,
+      "quality_score": 0.9779617969609289,
+      "execution_time": 8.392333984375e-05,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 37,
+      "task_type": "technical_article",
+      "reward": 0.8024321896108754,
+      "quality_score": 0.965246135778872,
+      "execution_time": 7.700920104980469e-05,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 38,
+      "task_type": "marketing_copy",
+      "reward": 0.7877991995750759,
+      "quality_score": 0.8625833777158772,
+      "execution_time": 9.393692016601562e-05,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 39,
+      "task_type": "research_summary",
+      "reward": 0.8551094703782278,
+      "quality_score": 0.9413961173055458,
+      "execution_time": 7.390975952148438e-05,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 40,
+      "task_type": "tutorial",
+      "reward": 0.8759055725317506,
+      "quality_score": 0.9726273337297853,
+      "execution_time": 0.00010418891906738281,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 41,
+      "task_type": "blog_post",
+      "reward": 0.8634249861943873,
+      "quality_score": 0.9549887250833476,
+      "execution_time": 0.0002377033233642578,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 42,
+      "task_type": "technical_article",
+      "reward": 0.8839332362553215,
+      "quality_score": 0.9833453581280583,
+      "execution_time": 0.00011706352233886719,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 43,
+      "task_type": "marketing_copy",
+      "reward": 0.9402346275454886,
+      "quality_score": 0.9682438960283203,
+      "execution_time": 0.0001468658447265625,
+      "agent_sequence": [
+        1,
+        1,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 44,
+      "task_type": "research_summary",
+      "reward": 0.8217417211312703,
+      "quality_score": 0.9043211548493674,
+      "execution_time": 0.00010776519775390625,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 45,
+      "task_type": "tutorial",
+      "reward": 0.8851425581294485,
+      "quality_score": 0.9835657482926525,
+      "execution_time": 9.918212890625e-05,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 46,
+      "task_type": "blog_post",
+      "reward": 0.8827412582803332,
+      "quality_score": 0.9809527346598156,
+      "execution_time": 8.225440979003906e-05,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 47,
+      "task_type": "technical_article",
+      "reward": 0.8567157755702162,
+      "quality_score": 0.9524623751736686,
+      "execution_time": 9.179115295410156e-05,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 48,
+      "task_type": "marketing_copy",
+      "reward": 0.7804080774862059,
+      "quality_score": 0.8518993668723862,
+      "execution_time": 9.608268737792969e-05,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 49,
+      "task_type": "research_summary",
+      "reward": 0.8667004999462035,
+      "quality_score": 0.9648355439825677,
+      "execution_time": 8.988380432128906e-05,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 50,
+      "task_type": "tutorial",
+      "reward": 0.870997225153595,
+      "quality_score": 0.9626945137219572,
+      "execution_time": 7.891654968261719e-05,
+      "agent_sequence": [
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 51,
+      "task_type": "blog_post",
+      "reward": 0.8740578565182608,
+      "quality_score": 0.9984643679954416,
+      "execution_time": 0.00015497207641601562,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 52,
+      "task_type": "technical_article",
+      "reward": 0.8623051784719411,
+      "quality_score": 0.9559119055745032,
+      "execution_time": 0.00011014938354492188,
+      "agent_sequence": [
+        0,
+        3,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 53,
+      "task_type": "marketing_copy",
+      "reward": 0.889568134716807,
+      "quality_score": 0.9066949191129657,
+      "execution_time": 0.0001308917999267578,
+      "agent_sequence": [
+        1,
+        0,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 54,
+      "task_type": "research_summary",
+      "reward": 0.8427727727878631,
+      "quality_score": 0.9243487054433196,
+      "execution_time": 7.605552673339844e-05,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 55,
+      "task_type": "tutorial",
+      "reward": 0.8527029155047722,
+      "quality_score": 0.9433438732137894,
+      "execution_time": 0.00010180473327636719,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 56,
+      "task_type": "blog_post",
+      "reward": 0.8823486234414485,
+      "quality_score": 0.9826473740665979,
+      "execution_time": 7.796287536621094e-05,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 57,
+      "task_type": "technical_article",
+      "reward": 0.8737693204860947,
+      "quality_score": 0.9742758124030338,
+      "execution_time": 9.703636169433594e-05,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 58,
+      "task_type": "marketing_copy",
+      "reward": 0.8547405458713058,
+      "quality_score": 0.9643249997138962,
+      "execution_time": 6.914138793945312e-05,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 59,
+      "task_type": "research_summary",
+      "reward": 0.8028629294239156,
+      "quality_score": 0.9617198455357808,
+      "execution_time": 7.295608520507812e-05,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 60,
+      "task_type": "tutorial",
+      "reward": 0.8624144407211314,
+      "quality_score": 0.9522046921497962,
+      "execution_time": 7.677078247070312e-05,
+      "agent_sequence": [
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 61,
+      "task_type": "blog_post",
+      "reward": 0.9712712997366035,
+      "quality_score": 0.9662212175701845,
+      "execution_time": 0.0002009868621826172,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 62,
+      "task_type": "technical_article",
+      "reward": 0.9090541321176564,
+      "quality_score": 0.8868530437519628,
+      "execution_time": 0.0001220703125,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 63,
+      "task_type": "marketing_copy",
+      "reward": 0.8954893610344872,
+      "quality_score": 0.8694218482133627,
+      "execution_time": 9.965896606445312e-05,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 64,
+      "task_type": "research_summary",
+      "reward": 0.9361571029785808,
+      "quality_score": 0.9175523504339451,
+      "execution_time": 0.06669807434082031,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.97
+    },
+    {
+      "episode": 65,
+      "task_type": "tutorial",
+      "reward": 0.9148754701327166,
+      "quality_score": 0.8869938020028444,
+      "execution_time": 0.0017609596252441406,
+      "agent_sequence": [
+        0,
+        0,
+        0
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.9409
+    },
+    {
+      "episode": 66,
+      "task_type": "blog_post",
+      "reward": 0.8913470318875474,
+      "quality_score": 0.8675846167424015,
+      "execution_time": 0.001447916030883789,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.912673
+    },
+    {
+      "episode": 67,
+      "task_type": "technical_article",
+      "reward": 0.8955589550642133,
+      "quality_score": 0.858397178416683,
+      "execution_time": 0.0014567375183105469,
+      "agent_sequence": [
+        3,
+        1,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.8852928099999999
+    },
+    {
+      "episode": 68,
+      "task_type": "marketing_copy",
+      "reward": 0.9661438726061888,
+      "quality_score": 0.9586049419293011,
+      "execution_time": 0.0013217926025390625,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.8587340256999999
+    },
+    {
+      "episode": 69,
+      "task_type": "research_summary",
+      "reward": 0.9610563527040423,
+      "quality_score": 0.9515317932610563,
+      "execution_time": 0.0013103485107421875,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.8329720049289999
+    },
+    {
+      "episode": 70,
+      "task_type": "tutorial",
+      "reward": 0.9663162461762804,
+      "quality_score": 0.9627160782815851,
+      "execution_time": 0.0013260841369628906,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.8079828447811299
+    },
+    {
+      "episode": 71,
+      "task_type": "blog_post",
+      "reward": 0.9890113477358398,
+      "quality_score": 0.9884548948223015,
+      "execution_time": 0.0037050247192382812,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.783743359437696
+    },
+    {
+      "episode": 72,
+      "task_type": "technical_article",
+      "reward": 0.9560572253761734,
+      "quality_score": 0.9500333553696402,
+      "execution_time": 0.0015611648559570312,
+      "agent_sequence": [
+        0,
+        3,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.7602310586545651
+    },
+    {
+      "episode": 73,
+      "task_type": "marketing_copy",
+      "reward": 0.9780023518818375,
+      "quality_score": 0.9750451076945723,
+      "execution_time": 0.001894235610961914,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.7374241268949281
+    },
+    {
+      "episode": 74,
+      "task_type": "research_summary",
+      "reward": 0.9703008570308934,
+      "quality_score": 0.9676864096413692,
+      "execution_time": 0.0014929771423339844,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.7153014030880802
+    },
+    {
+      "episode": 75,
+      "task_type": "tutorial",
+      "reward": 0.958396214355034,
+      "quality_score": 0.9450259818651738,
+      "execution_time": 0.0014662742614746094,
+      "agent_sequence": [
+        0,
+        1,
+        0
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.6938423609954378
+    },
+    {
+      "episode": 76,
+      "task_type": "blog_post",
+      "reward": 0.8949759771409835,
+      "quality_score": 0.9681756046966479,
+      "execution_time": 0.0014562606811523438,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.6730270901655747
+    },
+    {
+      "episode": 77,
+      "task_type": "technical_article",
+      "reward": 0.957694577145329,
+      "quality_score": 0.9523428937760897,
+      "execution_time": 0.0014569759368896484,
+      "agent_sequence": [
+        0,
+        3,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.6528362774606075
+    },
+    {
+      "episode": 78,
+      "task_type": "marketing_copy",
+      "reward": 0.8884073833346131,
+      "quality_score": 0.8561226359340184,
+      "execution_time": 0.0013799667358398438,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.6332511891367892
+    },
+    {
+      "episode": 79,
+      "task_type": "research_summary",
+      "reward": 0.9781128565299467,
+      "quality_score": 0.9750653642706824,
+      "execution_time": 0.001338958740234375,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.6142536534626856
+    },
+    {
+      "episode": 80,
+      "task_type": "tutorial",
+      "reward": 0.9332851891710585,
+      "quality_score": 1.0,
+      "execution_time": 0.0013298988342285156,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.595826043858805
+    },
+    {
+      "episode": 81,
+      "task_type": "blog_post",
+      "reward": 0.8869618423021461,
+      "quality_score": 0.8464595655292152,
+      "execution_time": 0.0023071765899658203,
+      "agent_sequence": [
+        3,
+        3,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.5779512625430409
+    },
+    {
+      "episode": 82,
+      "task_type": "technical_article",
+      "reward": 0.8682810457105794,
+      "quality_score": 0.8204710437564465,
+      "execution_time": 0.0014197826385498047,
+      "agent_sequence": [
+        1,
+        1,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.5606127246667496
+    },
+    {
+      "episode": 83,
+      "task_type": "marketing_copy",
+      "reward": 0.8965900616785001,
+      "quality_score": 0.9708678296865191,
+      "execution_time": 0.0014929771423339844,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.5437943429267471
+    },
+    {
+      "episode": 84,
+      "task_type": "research_summary",
+      "reward": 0.8717602015848098,
+      "quality_score": 0.8278773990046003,
+      "execution_time": 0.0015752315521240234,
+      "agent_sequence": [
+        1,
+        1,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.5274805126389447
+    },
+    {
+      "episode": 85,
+      "task_type": "tutorial",
+      "reward": 0.9701597803655584,
+      "quality_score": 0.9627148003546787,
+      "execution_time": 0.0015108585357666016,
+      "agent_sequence": [
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.5116560972597763
+    },
+    {
+      "episode": 86,
+      "task_type": "blog_post",
+      "reward": 0.9814713930226427,
+      "quality_score": 0.9782080463179923,
+      "execution_time": 0.0013041496276855469,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.496306414341983
+    },
+    {
+      "episode": 87,
+      "task_type": "technical_article",
+      "reward": 0.9825833841050764,
+      "quality_score": 0.9809258551365078,
+      "execution_time": 0.0014429092407226562,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.48141722191172354
+    },
+    {
+      "episode": 88,
+      "task_type": "marketing_copy",
+      "reward": 0.9910071273040415,
+      "quality_score": 0.9907922376469214,
+      "execution_time": 0.0014231204986572266,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.4669747052543718
+    },
+    {
+      "episode": 89,
+      "task_type": "research_summary",
+      "reward": 0.8389709382274169,
+      "quality_score": 0.7721893903318974,
+      "execution_time": 0.0014986991882324219,
+      "agent_sequence": [
+        1,
+        0,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.4529654640967406
+    },
+    {
+      "episode": 90,
+      "task_type": "tutorial",
+      "reward": 0.9336041313813448,
+      "quality_score": 0.9994070757977396,
+      "execution_time": 0.0014040470123291016,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.4393765001738384
+    },
+    {
+      "episode": 91,
+      "task_type": "blog_post",
+      "reward": 0.8955694995835761,
+      "quality_score": 0.8658561699215375,
+      "execution_time": 0.0022759437561035156,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.42619520516862325
+    },
+    {
+      "episode": 92,
+      "task_type": "technical_article",
+      "reward": 0.9854653887979571,
+      "quality_score": 0.9839159775904869,
+      "execution_time": 0.0015828609466552734,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.4134093490135645
+    },
+    {
+      "episode": 93,
+      "task_type": "marketing_copy",
+      "reward": 0.9790231006772904,
+      "quality_score": 0.9752880823823665,
+      "execution_time": 0.0014309883117675781,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.4010070685431576
+    },
+    {
+      "episode": 94,
+      "task_type": "research_summary",
+      "reward": 0.9564892465568384,
+      "quality_score": 0.9430676523755852,
+      "execution_time": 0.0014498233795166016,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.38897685648686287
+    },
+    {
+      "episode": 95,
+      "task_type": "tutorial",
+      "reward": 0.980697549995817,
+      "quality_score": 0.9790036834104955,
+      "execution_time": 0.0015621185302734375,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.377307550792257
+    },
+    {
+      "episode": 96,
+      "task_type": "blog_post",
+      "reward": 0.8977068394346623,
+      "quality_score": 0.9727282262251554,
+      "execution_time": 0.0013720989227294922,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.36598832426848926
+    },
+    {
+      "episode": 97,
+      "task_type": "technical_article",
+      "reward": 0.891445045560245,
+      "quality_score": 0.8514113409956375,
+      "execution_time": 0.001438140869140625,
+      "agent_sequence": [
+        1,
+        3,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.35500867454043455
+    },
+    {
+      "episode": 98,
+      "task_type": "marketing_copy",
+      "reward": 0.9702421229648959,
+      "quality_score": 0.9639549833034116,
+      "execution_time": 0.0014011859893798828,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.3443584143042215
+    },
+    {
+      "episode": 99,
+      "task_type": "research_summary",
+      "reward": 0.9532218058017314,
+      "quality_score": 0.9443920920505425,
+      "execution_time": 0.0014638900756835938,
+      "agent_sequence": [
+        3,
+        0,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.3340276618750948
+    },
+    {
+      "episode": 100,
+      "task_type": "tutorial",
+      "reward": 0.9865786184615002,
+      "quality_score": 0.9775040352604574,
+      "execution_time": 0.001500844955444336,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.32400683201884195
+    },
+    {
+      "episode": 101,
+      "task_type": "blog_post",
+      "reward": 0.861431119689781,
+      "quality_score": 0.9112847843795271,
+      "execution_time": 0.0019779205322265625,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.3142866270582767
+    },
+    {
+      "episode": 102,
+      "task_type": "technical_article",
+      "reward": 0.9719921445765749,
+      "quality_score": 0.964357720011605,
+      "execution_time": 0.001600027084350586,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.3048580282465284
+    },
+    {
+      "episode": 103,
+      "task_type": "marketing_copy",
+      "reward": 0.992270971159297,
+      "quality_score": 0.9916666618489813,
+      "execution_time": 0.0016770362854003906,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.2957122873991326
+    },
+    {
+      "episode": 104,
+      "task_type": "research_summary",
+      "reward": 0.9081634844178392,
+      "quality_score": 0.8952009069998095,
+      "execution_time": 0.0014338493347167969,
+      "agent_sequence": [
+        1,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.2868409187771586
+    },
+    {
+      "episode": 105,
+      "task_type": "tutorial",
+      "reward": 0.9702612468957452,
+      "quality_score": 0.9617379225646229,
+      "execution_time": 0.0012989044189453125,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.27823569121384384
+    },
+    {
+      "episode": 106,
+      "task_type": "blog_post",
+      "reward": 0.8278271233272725,
+      "quality_score": 0.7593989229482455,
+      "execution_time": 0.0013659000396728516,
+      "agent_sequence": [
+        3,
+        0,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.2698886204774285
+    },
+    {
+      "episode": 107,
+      "task_type": "technical_article",
+      "reward": 0.9256002913271937,
+      "quality_score": 1.0,
+      "execution_time": 0.0014548301696777344,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.26179196186310566
+    },
+    {
+      "episode": 108,
+      "task_type": "marketing_copy",
+      "reward": 0.8802815003263049,
+      "quality_score": 0.9434785826727343,
+      "execution_time": 0.0014140605926513672,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.2539382030072125
+    },
+    {
+      "episode": 109,
+      "task_type": "research_summary",
+      "reward": 0.9688088976567325,
+      "quality_score": 0.9637756343338638,
+      "execution_time": 0.0013289451599121094,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.2463200569169961
+    },
+    {
+      "episode": 110,
+      "task_type": "tutorial",
+      "reward": 0.9767483433859221,
+      "quality_score": 0.9697884772747176,
+      "execution_time": 0.0013840198516845703,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.23893045520948622
+    },
+    {
+      "episode": 111,
+      "task_type": "blog_post",
+      "reward": 0.893814473948942,
+      "quality_score": 0.9662357813126363,
+      "execution_time": 0.0021376609802246094,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.23176254155320164
+    },
+    {
+      "episode": 112,
+      "task_type": "technical_article",
+      "reward": 0.9875712015488534,
+      "quality_score": 0.9883176862521207,
+      "execution_time": 0.0016219615936279297,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.2248096653066056
+    },
+    {
+      "episode": 113,
+      "task_type": "marketing_copy",
+      "reward": 0.9823094667745091,
+      "quality_score": 0.9784061156121218,
+      "execution_time": 0.0017652511596679688,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.21806537534740741
+    },
+    {
+      "episode": 114,
+      "task_type": "research_summary",
+      "reward": 0.9650922787333404,
+      "quality_score": 0.9570368408372848,
+      "execution_time": 0.0017499923706054688,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.2115234140869852
+    },
+    {
+      "episode": 115,
+      "task_type": "tutorial",
+      "reward": 0.9791403147640225,
+      "quality_score": 0.971675569657724,
+      "execution_time": 0.0014531612396240234,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.20517771166437562
+    },
+    {
+      "episode": 116,
+      "task_type": "blog_post",
+      "reward": 0.9912992467115505,
+      "quality_score": 0.9902460760305938,
+      "execution_time": 0.0020890235900878906,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.19902238031444436
+    },
+    {
+      "episode": 117,
+      "task_type": "technical_article",
+      "reward": 0.9266424068126589,
+      "quality_score": 1.0,
+      "execution_time": 0.0017349720001220703,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.19305170890501103
+    },
+    {
+      "episode": 118,
+      "task_type": "marketing_copy",
+      "reward": 0.869364700951003,
+      "quality_score": 0.9249061691492619,
+      "execution_time": 0.001667022705078125,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.1872601576378607
+    },
+    {
+      "episode": 119,
+      "task_type": "research_summary",
+      "reward": 0.9212592410686203,
+      "quality_score": 0.9933727548607503,
+      "execution_time": 0.0015289783477783203,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.18164235290872485
+    },
+    {
+      "episode": 120,
+      "task_type": "tutorial",
+      "reward": 0.9706939122957214,
+      "quality_score": 0.9660582723734376,
+      "execution_time": 0.0016536712646484375,
+      "agent_sequence": [
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.1761930823214631
+    },
+    {
+      "episode": 121,
+      "task_type": "blog_post",
+      "reward": 0.8291884003085377,
+      "quality_score": 0.7605188697892068,
+      "execution_time": 0.0021162033081054688,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.17090728985181922
+    },
+    {
+      "episode": 122,
+      "task_type": "technical_article",
+      "reward": 0.9153828251886018,
+      "quality_score": 0.9835180135145132,
+      "execution_time": 0.0015239715576171875,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.16578007115626464
+    },
+    {
+      "episode": 123,
+      "task_type": "marketing_copy",
+      "reward": 0.8553580609211406,
+      "quality_score": 0.7887169329600511,
+      "execution_time": 0.001516103744506836,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.1608066690215767
+    },
+    {
+      "episode": 124,
+      "task_type": "research_summary",
+      "reward": 0.9684484263071946,
+      "quality_score": 0.9635812351879176,
+      "execution_time": 0.0015759468078613281,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.1559824689509294
+    },
+    {
+      "episode": 125,
+      "task_type": "tutorial",
+      "reward": 0.9311692772810221,
+      "quality_score": 1.0,
+      "execution_time": 0.0014460086822509766,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.1513029948824015
+    },
+    {
+      "episode": 126,
+      "task_type": "blog_post",
+      "reward": 0.8915843572416706,
+      "quality_score": 0.9644121118247313,
+      "execution_time": 0.0013689994812011719,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.14676390503592945
+    },
+    {
+      "episode": 127,
+      "task_type": "technical_article",
+      "reward": 0.956032082433409,
+      "quality_score": 0.9469581541497513,
+      "execution_time": 0.001371145248413086,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.14236098788485158
+    },
+    {
+      "episode": 128,
+      "task_type": "marketing_copy",
+      "reward": 0.8924167864914967,
+      "quality_score": 0.8654120056224086,
+      "execution_time": 0.0015552043914794922,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.13809015824830603
+    },
+    {
+      "episode": 129,
+      "task_type": "research_summary",
+      "reward": 0.9080771593180045,
+      "quality_score": 0.8868722126594085,
+      "execution_time": 0.0017480850219726562,
+      "agent_sequence": [
+        3,
+        1,
+        0
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.13394745350085685
+    },
+    {
+      "episode": 130,
+      "task_type": "tutorial",
+      "reward": 0.9513495311641249,
+      "quality_score": 0.9396558137187062,
+      "execution_time": 0.0017080307006835938,
+      "agent_sequence": [
+        0,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.12992902989583113
+    },
+    {
+      "episode": 131,
+      "task_type": "blog_post",
+      "reward": 0.9861652127292387,
+      "quality_score": 0.9838408234213352,
+      "execution_time": 0.0020530223846435547,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.1260311589989562
+    },
+    {
+      "episode": 132,
+      "task_type": "technical_article",
+      "reward": 0.9650630805321383,
+      "quality_score": 0.9575123832154082,
+      "execution_time": 0.0014438629150390625,
+      "agent_sequence": [
+        0,
+        3,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.12225022422898751
+    },
+    {
+      "episode": 133,
+      "task_type": "marketing_copy",
+      "reward": 0.8716134253058114,
+      "quality_score": 0.9307565108667873,
+      "execution_time": 0.0015549659729003906,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.11858271750211788
+    },
+    {
+      "episode": 134,
+      "task_type": "research_summary",
+      "reward": 0.9268554598644129,
+      "quality_score": 0.9030785658202274,
+      "execution_time": 0.0013909339904785156,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.11502523597705434
+    },
+    {
+      "episode": 135,
+      "task_type": "tutorial",
+      "reward": 0.9429876123219876,
+      "quality_score": 0.9300667438406954,
+      "execution_time": 0.0014998912811279297,
+      "agent_sequence": [
+        0,
+        1,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.1115744788977427
+    },
+    {
+      "episode": 136,
+      "task_type": "blog_post",
+      "reward": 0.9777505534031228,
+      "quality_score": 0.973141828611859,
+      "execution_time": 0.0015292167663574219,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.10822724453081042
+    },
+    {
+      "episode": 137,
+      "task_type": "technical_article",
+      "reward": 0.9518040242386794,
+      "quality_score": 0.9421956224761949,
+      "execution_time": 0.0014781951904296875,
+      "agent_sequence": [
+        0,
+        3,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.10498042719488611
+    },
+    {
+      "episode": 138,
+      "task_type": "marketing_copy",
+      "reward": 0.8775399415563898,
+      "quality_score": 0.9409108426295512,
+      "execution_time": 0.0013709068298339844,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.10183101437903952
+    },
+    {
+      "episode": 139,
+      "task_type": "research_summary",
+      "reward": 0.9398352395385794,
+      "quality_score": 0.9216058912780051,
+      "execution_time": 0.0012962818145751953,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.09877608394766833
+    },
+    {
+      "episode": 140,
+      "task_type": "tutorial",
+      "reward": 0.9823243999602866,
+      "quality_score": 0.9770737966677118,
+      "execution_time": 0.0013687610626220703,
+      "agent_sequence": [
+        1,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.09581280142923829
+    },
+    {
+      "episode": 141,
+      "task_type": "blog_post",
+      "reward": 0.9753049732890787,
+      "quality_score": 0.9702539871924951,
+      "execution_time": 0.0019168853759765625,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.09293841738636113
+    },
+    {
+      "episode": 142,
+      "task_type": "technical_article",
+      "reward": 0.9912501862153209,
+      "quality_score": 0.992448988347674,
+      "execution_time": 0.0015680789947509766,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.09015026486477029
+    },
+    {
+      "episode": 143,
+      "task_type": "marketing_copy",
+      "reward": 0.8862815282642809,
+      "quality_score": 0.8555879468241396,
+      "execution_time": 0.001641988754272461,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.08744575691882718
+    },
+    {
+      "episode": 144,
+      "task_type": "research_summary",
+      "reward": 0.9598056632967297,
+      "quality_score": 0.9536417645154097,
+      "execution_time": 0.0016021728515625,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.08482238421126237
+    },
+    {
+      "episode": 145,
+      "task_type": "tutorial",
+      "reward": 0.970866855859152,
+      "quality_score": 0.9685785374609616,
+      "execution_time": 0.0014920234680175781,
+      "agent_sequence": [
+        3,
+        3,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.0822777126849245
+    },
+    {
+      "episode": 146,
+      "task_type": "blog_post",
+      "reward": 0.9870302113661109,
+      "quality_score": 0.9850882168414368,
+      "execution_time": 0.0014128684997558594,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.07980938130437676
+    },
+    {
+      "episode": 147,
+      "task_type": "technical_article",
+      "reward": 0.9716655219111932,
+      "quality_score": 0.9663414572490684,
+      "execution_time": 0.001390695571899414,
+      "agent_sequence": [
+        0,
+        3,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.07741509986524546
+    },
+    {
+      "episode": 148,
+      "task_type": "marketing_copy",
+      "reward": 0.897294121354014,
+      "quality_score": 0.8744023584831839,
+      "execution_time": 0.0013728141784667969,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.0750926468692881
+    },
+    {
+      "episode": 149,
+      "task_type": "research_summary",
+      "reward": 0.8560156656215943,
+      "quality_score": 0.8019967656455314,
+      "execution_time": 0.0013699531555175781,
+      "agent_sequence": [
+        1,
+        3,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.07283986746320946
+    },
+    {
+      "episode": 150,
+      "task_type": "tutorial",
+      "reward": 0.9576456726170763,
+      "quality_score": 0.9476731899414365,
+      "execution_time": 0.0015060901641845703,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.07065467143931317
+    },
+    {
+      "episode": 151,
+      "task_type": "blog_post",
+      "reward": 0.9890219618401783,
+      "quality_score": 0.9876515645526052,
+      "execution_time": 0.0020329952239990234,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.06853503129613378
+    },
+    {
+      "episode": 152,
+      "task_type": "technical_article",
+      "reward": 0.9118639319479998,
+      "quality_score": 0.9762117408417751,
+      "execution_time": 0.0015828609466552734,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.06647898035724976
+    },
+    {
+      "episode": 153,
+      "task_type": "marketing_copy",
+      "reward": 0.984689951839806,
+      "quality_score": 0.9821340411968307,
+      "execution_time": 0.0015370845794677734,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.06448461094653227
+    },
+    {
+      "episode": 154,
+      "task_type": "research_summary",
+      "reward": 0.9492006416555783,
+      "quality_score": 0.9345691980955049,
+      "execution_time": 0.0014200210571289062,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.06255007261813629
+    },
+    {
+      "episode": 155,
+      "task_type": "tutorial",
+      "reward": 0.9698069064497639,
+      "quality_score": 0.9614193677720855,
+      "execution_time": 0.001386880874633789,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.0606735704395922
+    },
+    {
+      "episode": 156,
+      "task_type": "blog_post",
+      "reward": 0.9616517946113617,
+      "quality_score": 0.9527969970701549,
+      "execution_time": 0.0012862682342529297,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.05885336332640443
+    },
+    {
+      "episode": 157,
+      "task_type": "technical_article",
+      "reward": 0.9899101195059744,
+      "quality_score": 0.9851879182258224,
+      "execution_time": 0.0014736652374267578,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.057087762426612294
+    },
+    {
+      "episode": 158,
+      "task_type": "marketing_copy",
+      "reward": 0.8908163607455281,
+      "quality_score": 0.849472153202418,
+      "execution_time": 0.0015742778778076172,
+      "agent_sequence": [
+        1,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.05537512955381393
+    },
+    {
+      "episode": 159,
+      "task_type": "research_summary",
+      "reward": 0.9482216714357057,
+      "quality_score": 0.9360707946797231,
+      "execution_time": 0.0013530254364013672,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.053713875667199505
+    },
+    {
+      "episode": 160,
+      "task_type": "tutorial",
+      "reward": 0.9760329807844359,
+      "quality_score": 0.97156140455058,
+      "execution_time": 0.0014529228210449219,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.05210245939718352
+    },
+    {
+      "episode": 161,
+      "task_type": "blog_post",
+      "reward": 0.886355852211216,
+      "quality_score": 0.9537290871934863,
+      "execution_time": 0.001928091049194336,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.05053938561526801
+    },
+    {
+      "episode": 162,
+      "task_type": "technical_article",
+      "reward": 0.9753250477453018,
+      "quality_score": 0.975025325958142,
+      "execution_time": 0.0013933181762695312,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.049023204046809966
+    },
+    {
+      "episode": 163,
+      "task_type": "marketing_copy",
+      "reward": 0.8998350437511615,
+      "quality_score": 0.9762682418811585,
+      "execution_time": 0.0015251636505126953,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.04755250792540567
+    },
+    {
+      "episode": 164,
+      "task_type": "research_summary",
+      "reward": 0.93442285530387,
+      "quality_score": 0.9270196910970069,
+      "execution_time": 0.0017240047454833984,
+      "agent_sequence": [
+        3,
+        1,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.0461259326876435
+    },
+    {
+      "episode": 165,
+      "task_type": "tutorial",
+      "reward": 0.9651493731938235,
+      "quality_score": 0.9614067774464169,
+      "execution_time": 0.0015850067138671875,
+      "agent_sequence": [
+        0,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.04474215470701419
+    },
+    {
+      "episode": 166,
+      "task_type": "blog_post",
+      "reward": 0.9107060077818223,
+      "quality_score": 0.9942443251838808,
+      "execution_time": 0.0013849735260009766,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.04339989006580376
+    },
+    {
+      "episode": 167,
+      "task_type": "technical_article",
+      "reward": 0.9892347626741511,
+      "quality_score": 0.9871717680431717,
+      "execution_time": 0.0014281272888183594,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.042097893363829644
+    },
+    {
+      "episode": 168,
+      "task_type": "marketing_copy",
+      "reward": 0.9841789222715103,
+      "quality_score": 0.981475059933991,
+      "execution_time": 0.0015680789947509766,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.040834956562914755
+    },
+    {
+      "episode": 169,
+      "task_type": "research_summary",
+      "reward": 0.9152869462856933,
+      "quality_score": 0.8984915774226826,
+      "execution_time": 0.0014209747314453125,
+      "agent_sequence": [
+        3,
+        3,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.03960990786602731
+    },
+    {
+      "episode": 170,
+      "task_type": "tutorial",
+      "reward": 0.9105442981684891,
+      "quality_score": 0.9647389957752814,
+      "execution_time": 0.0013089179992675781,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.03842161063004649
+    },
+    {
+      "episode": 171,
+      "task_type": "blog_post",
+      "reward": 0.8345121014155035,
+      "quality_score": 0.768280441013408,
+      "execution_time": 0.0019462108612060547,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.03726896231114509
+    },
+    {
+      "episode": 172,
+      "task_type": "technical_article",
+      "reward": 0.8929351913616873,
+      "quality_score": 0.9468046434824267,
+      "execution_time": 0.0015223026275634766,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.03615089344181074
+    },
+    {
+      "episode": 173,
+      "task_type": "marketing_copy",
+      "reward": 0.9851940806525746,
+      "quality_score": 0.9829804396194974,
+      "execution_time": 0.0016770362854003906,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.03506636663855641
+    },
+    {
+      "episode": 174,
+      "task_type": "research_summary",
+      "reward": 0.9273153169146098,
+      "quality_score": 0.9113264600696138,
+      "execution_time": 0.001672983169555664,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.03401437563939972
+    },
+    {
+      "episode": 175,
+      "task_type": "tutorial",
+      "reward": 0.9489284841918646,
+      "quality_score": 0.9331626465490223,
+      "execution_time": 0.0015189647674560547,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.03299394437021773
+    },
+    {
+      "episode": 176,
+      "task_type": "blog_post",
+      "reward": 0.9759849381567528,
+      "quality_score": 0.970834675568343,
+      "execution_time": 0.0014920234680175781,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.032004126039111194
+    },
+    {
+      "episode": 177,
+      "task_type": "technical_article",
+      "reward": 0.9307269382064733,
+      "quality_score": 0.915554808905849,
+      "execution_time": 0.0015151500701904297,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.031044002257937856
+    },
+    {
+      "episode": 178,
+      "task_type": "marketing_copy",
+      "reward": 0.9839195368709338,
+      "quality_score": 0.9807140511891557,
+      "execution_time": 0.0013628005981445312,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.03011268219019972
+    },
+    {
+      "episode": 179,
+      "task_type": "research_summary",
+      "reward": 0.915331804898202,
+      "quality_score": 0.8986782931873168,
+      "execution_time": 0.0013091564178466797,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.029209301724493725
+    },
+    {
+      "episode": 180,
+      "task_type": "tutorial",
+      "reward": 0.8995810185643691,
+      "quality_score": 0.9460164186853396,
+      "execution_time": 0.0013251304626464844,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.028333022672758914
+    },
+    {
+      "episode": 181,
+      "task_type": "blog_post",
+      "reward": 0.9822757673663941,
+      "quality_score": 0.9784680484402928,
+      "execution_time": 0.002415895462036133,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.027483031992576144
+    },
+    {
+      "episode": 182,
+      "task_type": "technical_article",
+      "reward": 0.9775367497355861,
+      "quality_score": 0.9732557074539696,
+      "execution_time": 0.0016329288482666016,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.026658541032798858
+    },
+    {
+      "episode": 183,
+      "task_type": "marketing_copy",
+      "reward": 0.9738876058090401,
+      "quality_score": 0.9679528630518673,
+      "execution_time": 0.0016469955444335938,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.02585878480181489
+    },
+    {
+      "episode": 184,
+      "task_type": "research_summary",
+      "reward": 0.9745249861100882,
+      "quality_score": 0.9688469526346615,
+      "execution_time": 0.001500844955444336,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.025083021257760445
+    },
+    {
+      "episode": 185,
+      "task_type": "tutorial",
+      "reward": 0.9590061449094178,
+      "quality_score": 0.9463395440340956,
+      "execution_time": 0.001402139663696289,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.024330530620027633
+    },
+    {
+      "episode": 186,
+      "task_type": "blog_post",
+      "reward": 0.8960050335261638,
+      "quality_score": 0.8693985302747548,
+      "execution_time": 0.0013561248779296875,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.023600614701426804
+    },
+    {
+      "episode": 187,
+      "task_type": "technical_article",
+      "reward": 0.8940194799774068,
+      "quality_score": 0.9480754690599237,
+      "execution_time": 0.001386880874633789,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.022892596260384
+    },
+    {
+      "episode": 188,
+      "task_type": "marketing_copy",
+      "reward": 0.9814668836393352,
+      "quality_score": 0.9772841595578701,
+      "execution_time": 0.001399993896484375,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.02220581837257248
+    },
+    {
+      "episode": 189,
+      "task_type": "research_summary",
+      "reward": 0.9491151147322484,
+      "quality_score": 0.93645395087622,
+      "execution_time": 0.0014040470123291016,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.021539643821395303
+    },
+    {
+      "episode": 190,
+      "task_type": "tutorial",
+      "reward": 0.9732045034920058,
+      "quality_score": 0.9662380054595463,
+      "execution_time": 0.0013980865478515625,
+      "agent_sequence": [
+        3,
+        3,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.020893454506753444
+    },
+    {
+      "episode": 191,
+      "task_type": "blog_post",
+      "reward": 0.9772543838151424,
+      "quality_score": 0.9720054070271773,
+      "execution_time": 0.0019910335540771484,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.02026665087155084
+    },
+    {
+      "episode": 192,
+      "task_type": "technical_article",
+      "reward": 0.9014143989983079,
+      "quality_score": 0.9591373664841013,
+      "execution_time": 0.0015091896057128906,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.019658651345404312
+    },
+    {
+      "episode": 193,
+      "task_type": "marketing_copy",
+      "reward": 0.8760734119244139,
+      "quality_score": 0.9376606617149021,
+      "execution_time": 0.00150299072265625,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.019068891805042183
+    },
+    {
+      "episode": 194,
+      "task_type": "research_summary",
+      "reward": 0.9678600033640081,
+      "quality_score": 0.9599058831606883,
+      "execution_time": 0.0015740394592285156,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.018496825050890918
+    },
+    {
+      "episode": 195,
+      "task_type": "tutorial",
+      "reward": 0.932066816730521,
+      "quality_score": 1.0,
+      "execution_time": 0.0016131401062011719,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01794192029936419
+    },
+    {
+      "episode": 196,
+      "task_type": "blog_post",
+      "reward": 0.8557458283139919,
+      "quality_score": 0.8141802159003385,
+      "execution_time": 0.0015301704406738281,
+      "agent_sequence": [
+        1,
+        3,
+        0
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.017403662690383265
+    },
+    {
+      "episode": 197,
+      "task_type": "technical_article",
+      "reward": 0.9739725190618153,
+      "quality_score": 0.9698609148374495,
+      "execution_time": 0.0014231204986572266,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.016881552809671765
+    },
+    {
+      "episode": 198,
+      "task_type": "marketing_copy",
+      "reward": 0.8971132392600532,
+      "quality_score": 0.8714111084499597,
+      "execution_time": 0.0014061927795410156,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.016375106225381613
+    },
+    {
+      "episode": 199,
+      "task_type": "research_summary",
+      "reward": 0.9811062408862625,
+      "quality_score": 0.9782328642349407,
+      "execution_time": 0.0013480186462402344,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.015883853038620166
+    },
+    {
+      "episode": 200,
+      "task_type": "tutorial",
+      "reward": 0.9709849440380005,
+      "quality_score": 0.9679753141230528,
+      "execution_time": 0.0014061927795410156,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.015407337447461561
+    },
+    {
+      "episode": 201,
+      "task_type": "blog_post",
+      "reward": 0.9875423807306563,
+      "quality_score": 0.9853063389488165,
+      "execution_time": 0.002122163772583008,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.014945117324037714
+    },
+    {
+      "episode": 202,
+      "task_type": "technical_article",
+      "reward": 0.889357214653111,
+      "quality_score": 0.939806108218259,
+      "execution_time": 0.001425027847290039,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.014496763804316583
+    },
+    {
+      "episode": 203,
+      "task_type": "marketing_copy",
+      "reward": 0.8969472839484577,
+      "quality_score": 0.9730742218680289,
+      "execution_time": 0.001447916030883789,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.014061860890187084
+    },
+    {
+      "episode": 204,
+      "task_type": "research_summary",
+      "reward": 0.9405046396377992,
+      "quality_score": 0.927543931842975,
+      "execution_time": 0.0015249252319335938,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.013640005063481472
+    },
+    {
+      "episode": 205,
+      "task_type": "tutorial",
+      "reward": 0.9827117721455019,
+      "quality_score": 0.9799084675606782,
+      "execution_time": 0.0016448497772216797,
+      "agent_sequence": [
+        1,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.013230804911577028
+    },
+    {
+      "episode": 206,
+      "task_type": "blog_post",
+      "reward": 0.9868169298006053,
+      "quality_score": 0.9831529007026629,
+      "execution_time": 0.0014240741729736328,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.012833880764229717
+    },
+    {
+      "episode": 207,
+      "task_type": "technical_article",
+      "reward": 0.9704018931818361,
+      "quality_score": 0.9645388066798698,
+      "execution_time": 0.0015380382537841797,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.012448864341302825
+    },
+    {
+      "episode": 208,
+      "task_type": "marketing_copy",
+      "reward": 0.8948756321335469,
+      "quality_score": 0.9695436010063301,
+      "execution_time": 0.0013451576232910156,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01207539841106374
+    },
+    {
+      "episode": 209,
+      "task_type": "research_summary",
+      "reward": 0.9734395200060466,
+      "quality_score": 0.9693221919495764,
+      "execution_time": 0.0013518333435058594,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.011713136458731828
+    },
+    {
+      "episode": 210,
+      "task_type": "tutorial",
+      "reward": 0.9915135329022817,
+      "quality_score": 0.9874957059305833,
+      "execution_time": 0.0014030933380126953,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.011361742364969873
+    },
+    {
+      "episode": 211,
+      "task_type": "blog_post",
+      "reward": 0.882994067467981,
+      "quality_score": 0.8560278509233049,
+      "execution_time": 0.0021610260009765625,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.011020890094020776
+    },
+    {
+      "episode": 212,
+      "task_type": "technical_article",
+      "reward": 0.9249832631476995,
+      "quality_score": 1.0,
+      "execution_time": 0.0015060901641845703,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.010690263391200152
+    },
+    {
+      "episode": 213,
+      "task_type": "marketing_copy",
+      "reward": 0.8993250554626038,
+      "quality_score": 0.8743726780679945,
+      "execution_time": 0.0017390251159667969,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.010369555489464147
+    },
+    {
+      "episode": 214,
+      "task_type": "research_summary",
+      "reward": 0.9526645232822917,
+      "quality_score": 0.9409984447594111,
+      "execution_time": 0.0015859603881835938,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.010058468824780223
+    },
+    {
+      "episode": 215,
+      "task_type": "tutorial",
+      "reward": 0.9679439415804043,
+      "quality_score": 0.9635185696956992,
+      "execution_time": 0.001499176025390625,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 216,
+      "task_type": "blog_post",
+      "reward": 0.8619088842040025,
+      "quality_score": 0.799368651998673,
+      "execution_time": 0.0013778209686279297,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 217,
+      "task_type": "technical_article",
+      "reward": 0.9272674722889305,
+      "quality_score": 0.9132436851534452,
+      "execution_time": 0.0016262531280517578,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 218,
+      "task_type": "marketing_copy",
+      "reward": 0.8854414902627852,
+      "quality_score": 0.8529506356370257,
+      "execution_time": 0.0014331340789794922,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 219,
+      "task_type": "research_summary",
+      "reward": 0.9220179957958419,
+      "quality_score": 0.9060842479179847,
+      "execution_time": 0.00152587890625,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 220,
+      "task_type": "tutorial",
+      "reward": 0.9035635110864642,
+      "quality_score": 0.9510484685763345,
+      "execution_time": 0.0013589859008789062,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 221,
+      "task_type": "blog_post",
+      "reward": 0.797414207878197,
+      "quality_score": 0.7137454156205929,
+      "execution_time": 0.001961946487426758,
+      "agent_sequence": [
+        3,
+        0,
+        0
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 222,
+      "task_type": "technical_article",
+      "reward": 0.9156057435363016,
+      "quality_score": 0.9829704280637189,
+      "execution_time": 0.0014767646789550781,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 223,
+      "task_type": "marketing_copy",
+      "reward": 0.9688476399544942,
+      "quality_score": 0.9612776282913955,
+      "execution_time": 0.0014889240264892578,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 224,
+      "task_type": "research_summary",
+      "reward": 0.9570663418858982,
+      "quality_score": 0.9471140645640354,
+      "execution_time": 0.0015287399291992188,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 225,
+      "task_type": "tutorial",
+      "reward": 0.9713020702542845,
+      "quality_score": 0.9666271326342257,
+      "execution_time": 0.0015780925750732422,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 226,
+      "task_type": "blog_post",
+      "reward": 0.9934752012264614,
+      "quality_score": 0.9916482590488951,
+      "execution_time": 0.0014603137969970703,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 227,
+      "task_type": "technical_article",
+      "reward": 0.9562234167975285,
+      "quality_score": 0.9452966542867277,
+      "execution_time": 0.001608133316040039,
+      "agent_sequence": [
+        0,
+        3,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 228,
+      "task_type": "marketing_copy",
+      "reward": 0.9785371198272992,
+      "quality_score": 0.9726258514666899,
+      "execution_time": 0.0015180110931396484,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 229,
+      "task_type": "research_summary",
+      "reward": 0.9249347123317679,
+      "quality_score": 0.9996539933812985,
+      "execution_time": 0.0013592243194580078,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 230,
+      "task_type": "tutorial",
+      "reward": 0.9024738953767755,
+      "quality_score": 0.9499724584601451,
+      "execution_time": 0.0013189315795898438,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 231,
+      "task_type": "blog_post",
+      "reward": 0.9649417717196163,
+      "quality_score": 0.9563127048925044,
+      "execution_time": 0.001934051513671875,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 232,
+      "task_type": "technical_article",
+      "reward": 0.9388253109296938,
+      "quality_score": 0.913294905616557,
+      "execution_time": 0.0015230178833007812,
+      "agent_sequence": [
+        0,
+        0,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 233,
+      "task_type": "marketing_copy",
+      "reward": 0.9781008837429064,
+      "quality_score": 0.9720723303352071,
+      "execution_time": 0.001628875732421875,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 234,
+      "task_type": "research_summary",
+      "reward": 0.8970526214053647,
+      "quality_score": 0.9532594701006936,
+      "execution_time": 0.0015511512756347656,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 235,
+      "task_type": "tutorial",
+      "reward": 0.9715793349000155,
+      "quality_score": 0.9650730159829579,
+      "execution_time": 0.0013959407806396484,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 236,
+      "task_type": "blog_post",
+      "reward": 0.966979778444484,
+      "quality_score": 0.9454975647240477,
+      "execution_time": 0.0015659332275390625,
+      "agent_sequence": [
+        1,
+        1,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 237,
+      "task_type": "technical_article",
+      "reward": 0.9170754760392976,
+      "quality_score": 0.9059772688791795,
+      "execution_time": 0.0015079975128173828,
+      "agent_sequence": [
+        3,
+        1,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 238,
+      "task_type": "marketing_copy",
+      "reward": 0.9064439933330186,
+      "quality_score": 0.8829917296729023,
+      "execution_time": 0.0013759136199951172,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 239,
+      "task_type": "research_summary",
+      "reward": 0.8843483964473088,
+      "quality_score": 0.9329186164942268,
+      "execution_time": 0.0014340877532958984,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 240,
+      "task_type": "tutorial",
+      "reward": 0.9766409209611984,
+      "quality_score": 0.9667195465918236,
+      "execution_time": 0.0016129016876220703,
+      "agent_sequence": [
+        1,
+        1,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 241,
+      "task_type": "blog_post",
+      "reward": 0.9639814067799979,
+      "quality_score": 0.9542139684615948,
+      "execution_time": 0.0027091503143310547,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 242,
+      "task_type": "technical_article",
+      "reward": 0.9111745714098255,
+      "quality_score": 0.9759935127013226,
+      "execution_time": 0.0016481876373291016,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 243,
+      "task_type": "marketing_copy",
+      "reward": 0.8499240208483639,
+      "quality_score": 0.8016971918759886,
+      "execution_time": 0.0017809867858886719,
+      "agent_sequence": [
+        0,
+        3,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 244,
+      "task_type": "research_summary",
+      "reward": 0.9026007818561794,
+      "quality_score": 0.8885690717534532,
+      "execution_time": 0.0015368461608886719,
+      "agent_sequence": [
+        3,
+        1,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 245,
+      "task_type": "tutorial",
+      "reward": 0.9591855542708547,
+      "quality_score": 0.9513831956679037,
+      "execution_time": 0.0014872550964355469,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 246,
+      "task_type": "blog_post",
+      "reward": 0.7985197631191928,
+      "quality_score": 0.7067829755751505,
+      "execution_time": 0.0013859272003173828,
+      "agent_sequence": [
+        3,
+        0,
+        0
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 247,
+      "task_type": "technical_article",
+      "reward": 0.9760098580923486,
+      "quality_score": 0.9706177432831925,
+      "execution_time": 0.0013871192932128906,
+      "agent_sequence": [
+        0,
+        3,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 248,
+      "task_type": "marketing_copy",
+      "reward": 0.9001668641140563,
+      "quality_score": 0.8757986611388345,
+      "execution_time": 0.0014710426330566406,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 249,
+      "task_type": "research_summary",
+      "reward": 0.9138713427273532,
+      "quality_score": 0.8939652275943469,
+      "execution_time": 0.0013582706451416016,
+      "agent_sequence": [
+        0,
+        1,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 250,
+      "task_type": "tutorial",
+      "reward": 0.9705264057977234,
+      "quality_score": 0.965031007139369,
+      "execution_time": 0.0013551712036132812,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 251,
+      "task_type": "blog_post",
+      "reward": 0.9109420733232316,
+      "quality_score": 0.8959731354390539,
+      "execution_time": 0.002123117446899414,
+      "agent_sequence": [
+        0,
+        1,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 252,
+      "task_type": "technical_article",
+      "reward": 0.9807297602668266,
+      "quality_score": 0.977167279496428,
+      "execution_time": 0.0015270709991455078,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 253,
+      "task_type": "marketing_copy",
+      "reward": 0.9130289814642935,
+      "quality_score": 0.8994637641610633,
+      "execution_time": 0.001604318618774414,
+      "agent_sequence": [
+        1,
+        1,
+        0
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 254,
+      "task_type": "research_summary",
+      "reward": 0.9078513265164851,
+      "quality_score": 0.9726226794514846,
+      "execution_time": 0.0015840530395507812,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 255,
+      "task_type": "tutorial",
+      "reward": 0.9593993753503642,
+      "quality_score": 0.9475964016855789,
+      "execution_time": 0.0015239715576171875,
+      "agent_sequence": [
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 256,
+      "task_type": "blog_post",
+      "reward": 1.0,
+      "quality_score": 1.0,
+      "execution_time": 0.0013780593872070312,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 257,
+      "task_type": "technical_article",
+      "reward": 0.9814891694908461,
+      "quality_score": 0.9776966585656468,
+      "execution_time": 0.0014138221740722656,
+      "agent_sequence": [
+        0,
+        3,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 258,
+      "task_type": "marketing_copy",
+      "reward": 0.9018001087222154,
+      "quality_score": 0.8918458597346497,
+      "execution_time": 0.0014259815216064453,
+      "agent_sequence": [
+        1,
+        0,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 259,
+      "task_type": "research_summary",
+      "reward": 0.9574585404016889,
+      "quality_score": 0.9442729476204728,
+      "execution_time": 0.0013480186462402344,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 260,
+      "task_type": "tutorial",
+      "reward": 0.9770508000752305,
+      "quality_score": 0.9668263630800844,
+      "execution_time": 0.0014040470123291016,
+      "agent_sequence": [
+        3,
+        1,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 261,
+      "task_type": "blog_post",
+      "reward": 0.9934220566490641,
+      "quality_score": 0.9915803432529431,
+      "execution_time": 0.0019087791442871094,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 262,
+      "task_type": "technical_article",
+      "reward": 0.9669456398866578,
+      "quality_score": 0.9611537447395051,
+      "execution_time": 0.0015959739685058594,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 263,
+      "task_type": "marketing_copy",
+      "reward": 0.8812605974897639,
+      "quality_score": 0.8467934329001009,
+      "execution_time": 0.0017657279968261719,
+      "agent_sequence": [
+        0,
+        1,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 264,
+      "task_type": "research_summary",
+      "reward": 0.9772864705108194,
+      "quality_score": 0.9739052576294073,
+      "execution_time": 0.0015380382537841797,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 265,
+      "task_type": "tutorial",
+      "reward": 0.9530598722478736,
+      "quality_score": 0.9425157092753423,
+      "execution_time": 0.0014569759368896484,
+      "agent_sequence": [
+        1,
+        0,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 266,
+      "task_type": "blog_post",
+      "reward": 0.9717865157548013,
+      "quality_score": 0.9640724052456787,
+      "execution_time": 0.0014488697052001953,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 267,
+      "task_type": "technical_article",
+      "reward": 0.9686439824134135,
+      "quality_score": 0.9632007244919691,
+      "execution_time": 0.0013990402221679688,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 268,
+      "task_type": "marketing_copy",
+      "reward": 0.982412519801781,
+      "quality_score": 0.9789262004769563,
+      "execution_time": 0.0013949871063232422,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 269,
+      "task_type": "research_summary",
+      "reward": 0.9716785317953466,
+      "quality_score": 0.9655811888421811,
+      "execution_time": 0.0013420581817626953,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 270,
+      "task_type": "tutorial",
+      "reward": 0.9841866645669343,
+      "quality_score": 0.9781399696418277,
+      "execution_time": 0.0014562606811523438,
+      "agent_sequence": [
+        1,
+        1,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 271,
+      "task_type": "blog_post",
+      "reward": 0.9715606533988467,
+      "quality_score": 0.9653232195849174,
+      "execution_time": 0.0019099712371826172,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 272,
+      "task_type": "technical_article",
+      "reward": 0.8897784546661223,
+      "quality_score": 0.8566774750033325,
+      "execution_time": 0.0015218257904052734,
+      "agent_sequence": [
+        0,
+        1,
+        0
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 273,
+      "task_type": "marketing_copy",
+      "reward": 0.8796216897403447,
+      "quality_score": 0.8419533103900139,
+      "execution_time": 0.0015921592712402344,
+      "agent_sequence": [
+        1,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 274,
+      "task_type": "research_summary",
+      "reward": 0.9577853481164718,
+      "quality_score": 0.9528049187875015,
+      "execution_time": 0.0015859603881835938,
+      "agent_sequence": [
+        3,
+        3,
+        0
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 275,
+      "task_type": "tutorial",
+      "reward": 0.970908604752603,
+      "quality_score": 0.9655347176230347,
+      "execution_time": 0.0014469623565673828,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 276,
+      "task_type": "blog_post",
+      "reward": 0.9784655021422581,
+      "quality_score": 0.9741629948479591,
+      "execution_time": 0.0014688968658447266,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 277,
+      "task_type": "technical_article",
+      "reward": 0.9837436574934615,
+      "quality_score": 0.9803850230931749,
+      "execution_time": 0.0014972686767578125,
+      "agent_sequence": [
+        0,
+        3,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 278,
+      "task_type": "marketing_copy",
+      "reward": 0.9706261824069542,
+      "quality_score": 0.9642752364469555,
+      "execution_time": 0.0014662742614746094,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 279,
+      "task_type": "research_summary",
+      "reward": 0.9248902371604879,
+      "quality_score": 0.9117009381582662,
+      "execution_time": 0.001425027847290039,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 280,
+      "task_type": "tutorial",
+      "reward": 0.9670845582410112,
+      "quality_score": 0.9572594895228939,
+      "execution_time": 0.0014681816101074219,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 281,
+      "task_type": "blog_post",
+      "reward": 0.9057939329657931,
+      "quality_score": 0.9861436607026188,
+      "execution_time": 0.001965761184692383,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 282,
+      "task_type": "technical_article",
+      "reward": 0.9057184571927039,
+      "quality_score": 0.9656378970141378,
+      "execution_time": 0.0015079975128173828,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 283,
+      "task_type": "marketing_copy",
+      "reward": 0.8966525317994849,
+      "quality_score": 0.8708520765514363,
+      "execution_time": 0.0015709400177001953,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 284,
+      "task_type": "research_summary",
+      "reward": 0.9573927978822386,
+      "quality_score": 0.9483351560534466,
+      "execution_time": 0.0014679431915283203,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 285,
+      "task_type": "tutorial",
+      "reward": 0.9028490870655212,
+      "quality_score": 0.9501944170389554,
+      "execution_time": 0.0015749931335449219,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 286,
+      "task_type": "blog_post",
+      "reward": 0.9804722154456218,
+      "quality_score": 0.9764293407682991,
+      "execution_time": 0.0014150142669677734,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 287,
+      "task_type": "technical_article",
+      "reward": 0.9861820836729271,
+      "quality_score": 0.9833011996941471,
+      "execution_time": 0.0014350414276123047,
+      "agent_sequence": [
+        0,
+        3,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 288,
+      "task_type": "marketing_copy",
+      "reward": 0.9742789755875771,
+      "quality_score": 0.9672275241205713,
+      "execution_time": 0.0013840198516845703,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 289,
+      "task_type": "research_summary",
+      "reward": 0.9588038926467204,
+      "quality_score": 0.9489922208239532,
+      "execution_time": 0.0012950897216796875,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 290,
+      "task_type": "tutorial",
+      "reward": 0.9989333941044493,
+      "quality_score": 1.0,
+      "execution_time": 0.0013670921325683594,
+      "agent_sequence": [
+        3,
+        1,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 291,
+      "task_type": "blog_post",
+      "reward": 0.9091465660547764,
+      "quality_score": 0.991676470217635,
+      "execution_time": 0.002110004425048828,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 292,
+      "task_type": "technical_article",
+      "reward": 0.9911536038387754,
+      "quality_score": 0.9870219051462613,
+      "execution_time": 0.0015859603881835938,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 293,
+      "task_type": "marketing_copy",
+      "reward": 0.972913533592195,
+      "quality_score": 0.9668674774415236,
+      "execution_time": 0.0017511844635009766,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 294,
+      "task_type": "research_summary",
+      "reward": 0.9867655161611156,
+      "quality_score": 0.9853474738458607,
+      "execution_time": 0.002026081085205078,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 295,
+      "task_type": "tutorial",
+      "reward": 0.9483733364837972,
+      "quality_score": 0.934985883847518,
+      "execution_time": 0.0014829635620117188,
+      "agent_sequence": [
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 296,
+      "task_type": "blog_post",
+      "reward": 0.978545584694807,
+      "quality_score": 0.9741168466105873,
+      "execution_time": 0.001476287841796875,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 297,
+      "task_type": "technical_article",
+      "reward": 0.9593043259716966,
+      "quality_score": 0.9530232674867373,
+      "execution_time": 0.0014650821685791016,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 298,
+      "task_type": "marketing_copy",
+      "reward": 0.8308723687568491,
+      "quality_score": 0.7570636564883295,
+      "execution_time": 0.0014688968658447266,
+      "agent_sequence": [
+        0,
+        3,
+        0
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 299,
+      "task_type": "research_summary",
+      "reward": 0.9829769545664054,
+      "quality_score": 0.9810148447424757,
+      "execution_time": 0.0013778209686279297,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 300,
+      "task_type": "tutorial",
+      "reward": 0.9662384392180923,
+      "quality_score": 0.9585959053649765,
+      "execution_time": 0.0015101432800292969,
+      "agent_sequence": [
+        3,
+        0,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 301,
+      "task_type": "blog_post",
+      "reward": 0.9979980084469995,
+      "quality_score": 0.99913355902296,
+      "execution_time": 0.001966238021850586,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 302,
+      "task_type": "technical_article",
+      "reward": 0.8510322221900486,
+      "quality_score": 0.7962103919897957,
+      "execution_time": 0.0015370845794677734,
+      "agent_sequence": [
+        1,
+        1,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 303,
+      "task_type": "marketing_copy",
+      "reward": 0.8520226747252467,
+      "quality_score": 0.7881969796365175,
+      "execution_time": 0.0015819072723388672,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 304,
+      "task_type": "research_summary",
+      "reward": 0.996616105001385,
+      "quality_score": 0.9967645901497956,
+      "execution_time": 0.001714944839477539,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 305,
+      "task_type": "tutorial",
+      "reward": 0.9172471469296815,
+      "quality_score": 0.9731428706247219,
+      "execution_time": 0.0013988018035888672,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 306,
+      "task_type": "blog_post",
+      "reward": 0.9046149040268663,
+      "quality_score": 0.9841939429123276,
+      "execution_time": 0.0013217926025390625,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 307,
+      "task_type": "technical_article",
+      "reward": 0.9746533536655363,
+      "quality_score": 0.9730024268355999,
+      "execution_time": 0.0015230178833007812,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 308,
+      "task_type": "marketing_copy",
+      "reward": 0.8894614659578517,
+      "quality_score": 0.8639189767934512,
+      "execution_time": 0.0015990734100341797,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 309,
+      "task_type": "research_summary",
+      "reward": 0.9099846263965088,
+      "quality_score": 0.973014047360942,
+      "execution_time": 0.0013859272003173828,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 310,
+      "task_type": "tutorial",
+      "reward": 0.9558515616910006,
+      "quality_score": 0.9473060785181082,
+      "execution_time": 0.001325845718383789,
+      "agent_sequence": [
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 311,
+      "task_type": "blog_post",
+      "reward": 0.8795687097591889,
+      "quality_score": 0.8321272589070198,
+      "execution_time": 0.001987934112548828,
+      "agent_sequence": [
+        1,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 312,
+      "task_type": "technical_article",
+      "reward": 0.9048218944601754,
+      "quality_score": 0.9654170535376811,
+      "execution_time": 0.001589059829711914,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 313,
+      "task_type": "marketing_copy",
+      "reward": 0.9016838515485952,
+      "quality_score": 0.9793379246507766,
+      "execution_time": 0.0014960765838623047,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 314,
+      "task_type": "research_summary",
+      "reward": 0.9652656837246731,
+      "quality_score": 0.9564250635345122,
+      "execution_time": 0.001458883285522461,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 315,
+      "task_type": "tutorial",
+      "reward": 0.9196168429952396,
+      "quality_score": 0.9759829084370251,
+      "execution_time": 0.0014421939849853516,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 316,
+      "task_type": "blog_post",
+      "reward": 0.9919503745144547,
+      "quality_score": 0.9897003112299705,
+      "execution_time": 0.0014541149139404297,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 317,
+      "task_type": "technical_article",
+      "reward": 0.9573735522436975,
+      "quality_score": 0.9503968057362,
+      "execution_time": 0.001577138900756836,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 318,
+      "task_type": "marketing_copy",
+      "reward": 0.9921747912755292,
+      "quality_score": 0.9917432776752002,
+      "execution_time": 0.0016121864318847656,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 319,
+      "task_type": "research_summary",
+      "reward": 0.9844217283493191,
+      "quality_score": 0.9828854307738952,
+      "execution_time": 0.0015711784362792969,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 320,
+      "task_type": "tutorial",
+      "reward": 0.9612487115259896,
+      "quality_score": 0.951483231795825,
+      "execution_time": 0.0017838478088378906,
+      "agent_sequence": [
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 321,
+      "task_type": "blog_post",
+      "reward": 0.8903808452277346,
+      "quality_score": 0.9604890494281049,
+      "execution_time": 0.0025238990783691406,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 322,
+      "task_type": "technical_article",
+      "reward": 0.9659841584274717,
+      "quality_score": 0.9605969896112274,
+      "execution_time": 0.0016093254089355469,
+      "agent_sequence": [
+        0,
+        3,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 323,
+      "task_type": "marketing_copy",
+      "reward": 0.9962916850906939,
+      "quality_score": 0.9970481397863586,
+      "execution_time": 0.0017249584197998047,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 324,
+      "task_type": "research_summary",
+      "reward": 0.922433110784965,
+      "quality_score": 0.9949405813150521,
+      "execution_time": 0.0015859603881835938,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 325,
+      "task_type": "tutorial",
+      "reward": 0.9534707417749384,
+      "quality_score": 0.9413430678468706,
+      "execution_time": 0.0014328956604003906,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 326,
+      "task_type": "blog_post",
+      "reward": 0.9933692749939289,
+      "quality_score": 0.9932072661599085,
+      "execution_time": 0.0014538764953613281,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 327,
+      "task_type": "technical_article",
+      "reward": 0.9777453372256867,
+      "quality_score": 0.9664832492986939,
+      "execution_time": 0.0014400482177734375,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 328,
+      "task_type": "marketing_copy",
+      "reward": 0.875411196083838,
+      "quality_score": 0.8423183087106657,
+      "execution_time": 0.0014390945434570312,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 329,
+      "task_type": "research_summary",
+      "reward": 0.9111847654064344,
+      "quality_score": 0.8916582483151076,
+      "execution_time": 0.0013842582702636719,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 330,
+      "task_type": "tutorial",
+      "reward": 0.9160921599322569,
+      "quality_score": 0.9697142577149218,
+      "execution_time": 0.0014960765838623047,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 331,
+      "task_type": "blog_post",
+      "reward": 0.8244920393577184,
+      "quality_score": 0.7548347138692532,
+      "execution_time": 0.002048969268798828,
+      "agent_sequence": [
+        3,
+        0,
+        0
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 332,
+      "task_type": "technical_article",
+      "reward": 0.8997288941335435,
+      "quality_score": 0.9568310438637936,
+      "execution_time": 0.0014410018920898438,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 333,
+      "task_type": "marketing_copy",
+      "reward": 0.9027894880060421,
+      "quality_score": 0.8667783191993871,
+      "execution_time": 0.001584768295288086,
+      "agent_sequence": [
+        3,
+        1,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 334,
+      "task_type": "research_summary",
+      "reward": 0.9446955451736982,
+      "quality_score": 0.9314968192617267,
+      "execution_time": 0.0017001628875732422,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 335,
+      "task_type": "tutorial",
+      "reward": 0.9674323963532301,
+      "quality_score": 0.9556373817602578,
+      "execution_time": 0.0015370845794677734,
+      "agent_sequence": [
+        1,
+        1,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 336,
+      "task_type": "blog_post",
+      "reward": 0.9895474293338573,
+      "quality_score": 0.989761628847153,
+      "execution_time": 0.0014941692352294922,
+      "agent_sequence": [
+        1,
+        1,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 337,
+      "task_type": "technical_article",
+      "reward": 0.9754779302603952,
+      "quality_score": 0.9703970188710525,
+      "execution_time": 0.0015139579772949219,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 338,
+      "task_type": "marketing_copy",
+      "reward": 0.985447234085519,
+      "quality_score": 0.9830759408777626,
+      "execution_time": 0.001359701156616211,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 339,
+      "task_type": "research_summary",
+      "reward": 0.9707795864620121,
+      "quality_score": 0.9652737940468397,
+      "execution_time": 0.0013391971588134766,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 340,
+      "task_type": "tutorial",
+      "reward": 0.971644016278803,
+      "quality_score": 0.9673230250517509,
+      "execution_time": 0.0013589859008789062,
+      "agent_sequence": [
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 341,
+      "task_type": "blog_post",
+      "reward": 0.8945402264332989,
+      "quality_score": 0.8671192172719601,
+      "execution_time": 0.0019118785858154297,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 342,
+      "task_type": "technical_article",
+      "reward": 0.9631807727153452,
+      "quality_score": 0.957617309142862,
+      "execution_time": 0.0014538764953613281,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 343,
+      "task_type": "marketing_copy",
+      "reward": 0.9678486100500693,
+      "quality_score": 0.9607136541633972,
+      "execution_time": 0.001558065414428711,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 344,
+      "task_type": "research_summary",
+      "reward": 0.8301924027514687,
+      "quality_score": 0.7603027665819985,
+      "execution_time": 0.0017390251159667969,
+      "agent_sequence": [
+        1,
+        1,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 345,
+      "task_type": "tutorial",
+      "reward": 0.9602539084994268,
+      "quality_score": 0.9519431676857518,
+      "execution_time": 0.0014781951904296875,
+      "agent_sequence": [
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 346,
+      "task_type": "blog_post",
+      "reward": 0.9966971087526348,
+      "quality_score": 0.9974997545174322,
+      "execution_time": 0.0015187263488769531,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 347,
+      "task_type": "technical_article",
+      "reward": 0.9567440446268636,
+      "quality_score": 0.9462150162362675,
+      "execution_time": 0.0014188289642333984,
+      "agent_sequence": [
+        0,
+        3,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 348,
+      "task_type": "marketing_copy",
+      "reward": 0.9911910123343245,
+      "quality_score": 0.9905083251941635,
+      "execution_time": 0.0013768672943115234,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 349,
+      "task_type": "research_summary",
+      "reward": 0.9609692073560849,
+      "quality_score": 0.9501201318293442,
+      "execution_time": 0.0013761520385742188,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 350,
+      "task_type": "tutorial",
+      "reward": 0.9158157289218296,
+      "quality_score": 0.9706997531969503,
+      "execution_time": 0.0013811588287353516,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 351,
+      "task_type": "blog_post",
+      "reward": 0.9878609336157886,
+      "quality_score": 0.986262953854943,
+      "execution_time": 0.005402803421020508,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 352,
+      "task_type": "technical_article",
+      "reward": 0.9670683444166972,
+      "quality_score": 0.9597897058565638,
+      "execution_time": 0.006411075592041016,
+      "agent_sequence": [
+        0,
+        3,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 353,
+      "task_type": "marketing_copy",
+      "reward": 0.904011294915146,
+      "quality_score": 0.9831949704480597,
+      "execution_time": 0.007418155670166016,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 354,
+      "task_type": "research_summary",
+      "reward": 0.9812436628901813,
+      "quality_score": 0.9749166577370735,
+      "execution_time": 0.003072023391723633,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 355,
+      "task_type": "tutorial",
+      "reward": 0.9552331740257014,
+      "quality_score": 0.9447860962655817,
+      "execution_time": 0.0025887489318847656,
+      "agent_sequence": [
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 356,
+      "task_type": "blog_post",
+      "reward": 0.9710256223648088,
+      "quality_score": 0.9649656766730186,
+      "execution_time": 0.002002239227294922,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 357,
+      "task_type": "technical_article",
+      "reward": 0.957131192313987,
+      "quality_score": 0.9508117924887722,
+      "execution_time": 0.0016391277313232422,
+      "agent_sequence": [
+        0,
+        3,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 358,
+      "task_type": "marketing_copy",
+      "reward": 0.9781161918136143,
+      "quality_score": 0.9740128590580079,
+      "execution_time": 0.0020608901977539062,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 359,
+      "task_type": "research_summary",
+      "reward": 0.9521554723074591,
+      "quality_score": 0.9402314837243735,
+      "execution_time": 0.0017139911651611328,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 360,
+      "task_type": "tutorial",
+      "reward": 0.957822518122972,
+      "quality_score": 0.9504242241246923,
+      "execution_time": 0.001878976821899414,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 361,
+      "task_type": "blog_post",
+      "reward": 0.8217331435022938,
+      "quality_score": 0.7492659582151363,
+      "execution_time": 0.0026788711547851562,
+      "agent_sequence": [
+        3,
+        0,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 362,
+      "task_type": "technical_article",
+      "reward": 0.9567188348669176,
+      "quality_score": 0.9482418266333644,
+      "execution_time": 0.001638174057006836,
+      "agent_sequence": [
+        0,
+        3,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 363,
+      "task_type": "marketing_copy",
+      "reward": 0.859533763982351,
+      "quality_score": 0.9080113394587678,
+      "execution_time": 0.0017819404602050781,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 364,
+      "task_type": "research_summary",
+      "reward": 0.9292815931139502,
+      "quality_score": 0.9123274634541364,
+      "execution_time": 0.001531839370727539,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 365,
+      "task_type": "tutorial",
+      "reward": 0.9860037315420558,
+      "quality_score": 0.9833875890136935,
+      "execution_time": 0.0014781951904296875,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 366,
+      "task_type": "blog_post",
+      "reward": 0.8851247591721956,
+      "quality_score": 0.9516563639565283,
+      "execution_time": 0.0015730857849121094,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 367,
+      "task_type": "technical_article",
+      "reward": 0.9254019823525548,
+      "quality_score": 0.9985762402847789,
+      "execution_time": 0.003930807113647461,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 368,
+      "task_type": "marketing_copy",
+      "reward": 0.969370217634155,
+      "quality_score": 0.9629293720807743,
+      "execution_time": 0.0014908313751220703,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 369,
+      "task_type": "research_summary",
+      "reward": 0.9426725777683896,
+      "quality_score": 0.9293651963599636,
+      "execution_time": 0.0014178752899169922,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 370,
+      "task_type": "tutorial",
+      "reward": 0.9588973152025762,
+      "quality_score": 0.9496165733754229,
+      "execution_time": 0.0013699531555175781,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 371,
+      "task_type": "blog_post",
+      "reward": 0.9826511741528786,
+      "quality_score": 0.9796949085275805,
+      "execution_time": 0.0021219253540039062,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 372,
+      "task_type": "technical_article",
+      "reward": 0.973544049037607,
+      "quality_score": 0.9656910789037471,
+      "execution_time": 0.0015609264373779297,
+      "agent_sequence": [
+        3,
+        3,
+        0
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 373,
+      "task_type": "marketing_copy",
+      "reward": 0.8929495997239569,
+      "quality_score": 0.8532035357155019,
+      "execution_time": 0.0016598701477050781,
+      "agent_sequence": [
+        1,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 374,
+      "task_type": "research_summary",
+      "reward": 0.9190059160883539,
+      "quality_score": 0.9027174923528265,
+      "execution_time": 0.0015780925750732422,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 375,
+      "task_type": "tutorial",
+      "reward": 0.9856107861865775,
+      "quality_score": 0.9829718023919377,
+      "execution_time": 0.0014238357543945312,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 376,
+      "task_type": "blog_post",
+      "reward": 0.9687435984397204,
+      "quality_score": 0.9619071359484287,
+      "execution_time": 0.0013949871063232422,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 377,
+      "task_type": "technical_article",
+      "reward": 0.9816511807419543,
+      "quality_score": 0.9795294950695327,
+      "execution_time": 0.0013861656188964844,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 378,
+      "task_type": "marketing_copy",
+      "reward": 0.902550604841361,
+      "quality_score": 0.8779199392284467,
+      "execution_time": 0.00136566162109375,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 379,
+      "task_type": "research_summary",
+      "reward": 0.9472219191545388,
+      "quality_score": 0.9347630280144054,
+      "execution_time": 0.0014812946319580078,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 380,
+      "task_type": "tutorial",
+      "reward": 0.9647740228211419,
+      "quality_score": 0.9560407690734993,
+      "execution_time": 0.0014657974243164062,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 381,
+      "task_type": "blog_post",
+      "reward": 0.9129076627409516,
+      "quality_score": 0.9978635914650636,
+      "execution_time": 0.0018808841705322266,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 382,
+      "task_type": "technical_article",
+      "reward": 0.9606899481429458,
+      "quality_score": 0.954020855310859,
+      "execution_time": 0.001584768295288086,
+      "agent_sequence": [
+        0,
+        3,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 383,
+      "task_type": "marketing_copy",
+      "reward": 0.8342352249951783,
+      "quality_score": 0.7717000655046421,
+      "execution_time": 0.0015761852264404297,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 384,
+      "task_type": "research_summary",
+      "reward": 0.9986345517525118,
+      "quality_score": 1.0,
+      "execution_time": 0.0013811588287353516,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 385,
+      "task_type": "tutorial",
+      "reward": 0.9322535178345,
+      "quality_score": 0.9988834036621763,
+      "execution_time": 0.0013370513916015625,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 386,
+      "task_type": "blog_post",
+      "reward": 0.9725862473642233,
+      "quality_score": 0.9668167691192874,
+      "execution_time": 0.0014090538024902344,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 387,
+      "task_type": "technical_article",
+      "reward": 0.9471219606699421,
+      "quality_score": 0.9352691887971886,
+      "execution_time": 0.0016131401062011719,
+      "agent_sequence": [
+        3,
+        3,
+        0
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 388,
+      "task_type": "marketing_copy",
+      "reward": 0.8413592141727809,
+      "quality_score": 0.7827228919022043,
+      "execution_time": 0.0013828277587890625,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 389,
+      "task_type": "research_summary",
+      "reward": 0.9639636524289853,
+      "quality_score": 0.9538931338714787,
+      "execution_time": 0.0014121532440185547,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 390,
+      "task_type": "tutorial",
+      "reward": 0.9726022946463275,
+      "quality_score": 0.96879511924977,
+      "execution_time": 0.0013890266418457031,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 391,
+      "task_type": "blog_post",
+      "reward": 0.9080792499823951,
+      "quality_score": 0.9899169025410128,
+      "execution_time": 0.0018711090087890625,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 392,
+      "task_type": "technical_article",
+      "reward": 0.9034023216197331,
+      "quality_score": 0.9628233621166934,
+      "execution_time": 0.0014848709106445312,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 393,
+      "task_type": "marketing_copy",
+      "reward": 0.9289894618754629,
+      "quality_score": 0.9191010718830155,
+      "execution_time": 0.0015628337860107422,
+      "agent_sequence": [
+        1,
+        3,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 394,
+      "task_type": "research_summary",
+      "reward": 0.9207762340275343,
+      "quality_score": 0.9919481573071609,
+      "execution_time": 0.0015788078308105469,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 395,
+      "task_type": "tutorial",
+      "reward": 0.9325011923686355,
+      "quality_score": 1.0,
+      "execution_time": 0.0014901161193847656,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 396,
+      "task_type": "blog_post",
+      "reward": 0.8873360269679649,
+      "quality_score": 0.955377637469013,
+      "execution_time": 0.0013728141784667969,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 397,
+      "task_type": "technical_article",
+      "reward": 0.9259465373499947,
+      "quality_score": 1.0,
+      "execution_time": 0.0013759136199951172,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 398,
+      "task_type": "marketing_copy",
+      "reward": 0.9973893196628436,
+      "quality_score": 0.9984994276145659,
+      "execution_time": 0.001542806625366211,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 399,
+      "task_type": "research_summary",
+      "reward": 0.9070437281890318,
+      "quality_score": 0.9703772603604176,
+      "execution_time": 0.0014081001281738281,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 400,
+      "task_type": "tutorial",
+      "reward": 0.9658537420172848,
+      "quality_score": 0.9575848339599586,
+      "execution_time": 0.0013959407806396484,
+      "agent_sequence": [
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 401,
+      "task_type": "blog_post",
+      "reward": 0.9871021499555558,
+      "quality_score": 0.9853896685605995,
+      "execution_time": 0.0020132064819335938,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 402,
+      "task_type": "technical_article",
+      "reward": 0.9592481120911536,
+      "quality_score": 0.9513628815315283,
+      "execution_time": 0.0015239715576171875,
+      "agent_sequence": [
+        0,
+        3,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 403,
+      "task_type": "marketing_copy",
+      "reward": 0.9639582961516553,
+      "quality_score": 0.956085103632363,
+      "execution_time": 0.0017206668853759766,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 404,
+      "task_type": "research_summary",
+      "reward": 0.9787320184060391,
+      "quality_score": 0.9761099494855201,
+      "execution_time": 0.001734018325805664,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 405,
+      "task_type": "tutorial",
+      "reward": 0.9538379660953665,
+      "quality_score": 0.94132534553808,
+      "execution_time": 0.001505136489868164,
+      "agent_sequence": [
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 406,
+      "task_type": "blog_post",
+      "reward": 0.8940970299656086,
+      "quality_score": 0.8663817369733963,
+      "execution_time": 0.0015139579772949219,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 407,
+      "task_type": "technical_article",
+      "reward": 0.891159119702658,
+      "quality_score": 0.942642985720253,
+      "execution_time": 0.0014977455139160156,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 408,
+      "task_type": "marketing_copy",
+      "reward": 0.964677564702597,
+      "quality_score": 0.9569440581769486,
+      "execution_time": 0.0014278888702392578,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 409,
+      "task_type": "research_summary",
+      "reward": 0.9477393650639228,
+      "quality_score": 0.9319619954788696,
+      "execution_time": 0.0014309883117675781,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 410,
+      "task_type": "tutorial",
+      "reward": 0.9319413974099837,
+      "quality_score": 0.9981792396875189,
+      "execution_time": 0.0013651847839355469,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 411,
+      "task_type": "blog_post",
+      "reward": 0.8383960746183672,
+      "quality_score": 0.7864117896927683,
+      "execution_time": 0.002232074737548828,
+      "agent_sequence": [
+        1,
+        3,
+        0
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 412,
+      "task_type": "technical_article",
+      "reward": 0.9806116610931723,
+      "quality_score": 0.9784640991008248,
+      "execution_time": 0.0016307830810546875,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 413,
+      "task_type": "marketing_copy",
+      "reward": 0.9787850353795321,
+      "quality_score": 0.9748954221892663,
+      "execution_time": 0.0016047954559326172,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 414,
+      "task_type": "research_summary",
+      "reward": 0.9308585681035559,
+      "quality_score": 0.9175325108548658,
+      "execution_time": 0.001592874526977539,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 415,
+      "task_type": "tutorial",
+      "reward": 0.9945708581622859,
+      "quality_score": 0.9933871251555518,
+      "execution_time": 0.0015339851379394531,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 416,
+      "task_type": "blog_post",
+      "reward": 0.9804529577369524,
+      "quality_score": 0.9769471837940501,
+      "execution_time": 0.0014052391052246094,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 417,
+      "task_type": "technical_article",
+      "reward": 0.9655753740380262,
+      "quality_score": 0.9579003206537028,
+      "execution_time": 0.0016088485717773438,
+      "agent_sequence": [
+        0,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 418,
+      "task_type": "marketing_copy",
+      "reward": 0.8905373643363317,
+      "quality_score": 0.8644702147480883,
+      "execution_time": 0.0014109611511230469,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 419,
+      "task_type": "research_summary",
+      "reward": 0.9369018020453693,
+      "quality_score": 0.9178572435387474,
+      "execution_time": 0.0015680789947509766,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 420,
+      "task_type": "tutorial",
+      "reward": 0.9326754403115809,
+      "quality_score": 1.0,
+      "execution_time": 0.0015130043029785156,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 421,
+      "task_type": "blog_post",
+      "reward": 0.8656711221604547,
+      "quality_score": 0.9185777636963899,
+      "execution_time": 0.0020368099212646484,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 422,
+      "task_type": "technical_article",
+      "reward": 0.9243234450903397,
+      "quality_score": 1.0,
+      "execution_time": 0.0015628337860107422,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 423,
+      "task_type": "marketing_copy",
+      "reward": 0.977795417623511,
+      "quality_score": 0.9735135691986816,
+      "execution_time": 0.0015118122100830078,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 424,
+      "task_type": "research_summary",
+      "reward": 0.9791213219274398,
+      "quality_score": 0.9752213776319911,
+      "execution_time": 0.0015559196472167969,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 425,
+      "task_type": "tutorial",
+      "reward": 0.972162216599712,
+      "quality_score": 0.9699804303077257,
+      "execution_time": 0.0016660690307617188,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 426,
+      "task_type": "blog_post",
+      "reward": 0.9665149909554722,
+      "quality_score": 0.9528255643570063,
+      "execution_time": 0.001531839370727539,
+      "agent_sequence": [
+        1,
+        1,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 427,
+      "task_type": "technical_article",
+      "reward": 0.88487142182642,
+      "quality_score": 0.935332390622486,
+      "execution_time": 0.001422882080078125,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 428,
+      "task_type": "marketing_copy",
+      "reward": 0.9946121391881053,
+      "quality_score": 0.9950364181967111,
+      "execution_time": 0.001363992691040039,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 429,
+      "task_type": "research_summary",
+      "reward": 0.9306507792166617,
+      "quality_score": 0.9098292599522877,
+      "execution_time": 0.0014362335205078125,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 430,
+      "task_type": "tutorial",
+      "reward": 0.9790828544023551,
+      "quality_score": 0.9763119827035855,
+      "execution_time": 0.0014472007751464844,
+      "agent_sequence": [
+        1,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 431,
+      "task_type": "blog_post",
+      "reward": 0.8798560085580319,
+      "quality_score": 0.8395374852505663,
+      "execution_time": 0.0019931793212890625,
+      "agent_sequence": [
+        3,
+        3,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 432,
+      "task_type": "technical_article",
+      "reward": 0.950575350420406,
+      "quality_score": 0.9387054571618179,
+      "execution_time": 0.0015130043029785156,
+      "agent_sequence": [
+        0,
+        3,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 433,
+      "task_type": "marketing_copy",
+      "reward": 0.9925412055461341,
+      "quality_score": 0.9925091619366774,
+      "execution_time": 0.0016167163848876953,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 434,
+      "task_type": "research_summary",
+      "reward": 0.9677212692541619,
+      "quality_score": 0.958745114413065,
+      "execution_time": 0.0016071796417236328,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 435,
+      "task_type": "tutorial",
+      "reward": 0.9779620878697205,
+      "quality_score": 0.9677105014472982,
+      "execution_time": 0.0014712810516357422,
+      "agent_sequence": [
+        3,
+        1,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 436,
+      "task_type": "blog_post",
+      "reward": 0.8807687103483224,
+      "quality_score": 0.8502847637355917,
+      "execution_time": 0.0016109943389892578,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 437,
+      "task_type": "technical_article",
+      "reward": 0.8512052434653234,
+      "quality_score": 0.7967323155851234,
+      "execution_time": 0.0015811920166015625,
+      "agent_sequence": [
+        1,
+        1,
+        0
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 438,
+      "task_type": "marketing_copy",
+      "reward": 0.9802964466201359,
+      "quality_score": 0.976893228573656,
+      "execution_time": 0.0014052391052246094,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 439,
+      "task_type": "research_summary",
+      "reward": 0.9682093886449861,
+      "quality_score": 0.9604280784043827,
+      "execution_time": 0.0013513565063476562,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 440,
+      "task_type": "tutorial",
+      "reward": 0.9582680060735518,
+      "quality_score": 0.9506357753387292,
+      "execution_time": 0.001486063003540039,
+      "agent_sequence": [
+        1,
+        1,
+        0
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 441,
+      "task_type": "blog_post",
+      "reward": 0.8590931900160361,
+      "quality_score": 0.9072503489222705,
+      "execution_time": 0.0019762516021728516,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 442,
+      "task_type": "technical_article",
+      "reward": 0.9136835962263548,
+      "quality_score": 0.9788299410295399,
+      "execution_time": 0.001661062240600586,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 443,
+      "task_type": "marketing_copy",
+      "reward": 0.9701711245663555,
+      "quality_score": 0.9641105560403601,
+      "execution_time": 0.0015270709991455078,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 444,
+      "task_type": "research_summary",
+      "reward": 0.944886597953815,
+      "quality_score": 0.9324496553466816,
+      "execution_time": 0.0016179084777832031,
+      "agent_sequence": [
+        0,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 445,
+      "task_type": "tutorial",
+      "reward": 0.9575511579395022,
+      "quality_score": 0.9470175124300053,
+      "execution_time": 0.0015001296997070312,
+      "agent_sequence": [
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 446,
+      "task_type": "blog_post",
+      "reward": 0.960457173574883,
+      "quality_score": 0.9519295563354213,
+      "execution_time": 0.0014171600341796875,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 447,
+      "task_type": "technical_article",
+      "reward": 0.9612016833550109,
+      "quality_score": 0.9531153681325373,
+      "execution_time": 0.0014128684997558594,
+      "agent_sequence": [
+        0,
+        3,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 448,
+      "task_type": "marketing_copy",
+      "reward": 0.8478658109379792,
+      "quality_score": 0.8037056608295603,
+      "execution_time": 0.0014348030090332031,
+      "agent_sequence": [
+        3,
+        1,
+        0
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 449,
+      "task_type": "research_summary",
+      "reward": 0.9099965915883534,
+      "quality_score": 0.9730785997579741,
+      "execution_time": 0.00138092041015625,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 450,
+      "task_type": "tutorial",
+      "reward": 0.9615064685980985,
+      "quality_score": 0.9523544687208867,
+      "execution_time": 0.0013959407806396484,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 451,
+      "task_type": "blog_post",
+      "reward": 0.9697634500875997,
+      "quality_score": 0.9636454286829403,
+      "execution_time": 0.0019061565399169922,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 452,
+      "task_type": "technical_article",
+      "reward": 0.9598854218068533,
+      "quality_score": 0.9542624689069276,
+      "execution_time": 0.0014710426330566406,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 453,
+      "task_type": "marketing_copy",
+      "reward": 0.8748652647925328,
+      "quality_score": 0.8417002283239936,
+      "execution_time": 0.0016489028930664062,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 454,
+      "task_type": "research_summary",
+      "reward": 0.961064523420772,
+      "quality_score": 0.9555485464645544,
+      "execution_time": 0.0017311573028564453,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 455,
+      "task_type": "tutorial",
+      "reward": 0.9232217032533929,
+      "quality_score": 0.9835478255894758,
+      "execution_time": 0.0014400482177734375,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 456,
+      "task_type": "blog_post",
+      "reward": 0.9142093023255815,
+      "quality_score": 1.0,
+      "execution_time": 0.0014371871948242188,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 457,
+      "task_type": "technical_article",
+      "reward": 0.8704923683590341,
+      "quality_score": 0.8235781141473364,
+      "execution_time": 0.0015420913696289062,
+      "agent_sequence": [
+        1,
+        1,
+        0
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 458,
+      "task_type": "marketing_copy",
+      "reward": 0.8610902812498219,
+      "quality_score": 0.9134966980020865,
+      "execution_time": 0.0014090538024902344,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 459,
+      "task_type": "research_summary",
+      "reward": 0.9046720643614143,
+      "quality_score": 0.8816371511839295,
+      "execution_time": 0.0014259815216064453,
+      "agent_sequence": [
+        0,
+        3,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 460,
+      "task_type": "tutorial",
+      "reward": 0.9730488209715377,
+      "quality_score": 0.9699659606645312,
+      "execution_time": 0.0014660358428955078,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 461,
+      "task_type": "blog_post",
+      "reward": 0.971850307295476,
+      "quality_score": 0.9662766869350943,
+      "execution_time": 0.002137899398803711,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 462,
+      "task_type": "technical_article",
+      "reward": 0.9051607617850215,
+      "quality_score": 0.9684071338353101,
+      "execution_time": 0.0015480518341064453,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 463,
+      "task_type": "marketing_copy",
+      "reward": 0.8881783857279886,
+      "quality_score": 0.857675649514887,
+      "execution_time": 0.0016498565673828125,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 464,
+      "task_type": "research_summary",
+      "reward": 0.9575491910689906,
+      "quality_score": 0.9481397725988592,
+      "execution_time": 0.0015528202056884766,
+      "agent_sequence": [
+        0,
+        3
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 465,
+      "task_type": "tutorial",
+      "reward": 0.9731747801105267,
+      "quality_score": 0.9713962878888597,
+      "execution_time": 0.0015969276428222656,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 466,
+      "task_type": "blog_post",
+      "reward": 0.8744316546303545,
+      "quality_score": 0.84228565238258,
+      "execution_time": 0.0015392303466796875,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 467,
+      "task_type": "technical_article",
+      "reward": 0.9555974880398824,
+      "quality_score": 0.9449506872259451,
+      "execution_time": 0.0013959407806396484,
+      "agent_sequence": [
+        0,
+        3,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 468,
+      "task_type": "marketing_copy",
+      "reward": 0.8736741363960012,
+      "quality_score": 0.8374430256879631,
+      "execution_time": 0.0014181137084960938,
+      "agent_sequence": [
+        1,
+        3,
+        0
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 469,
+      "task_type": "research_summary",
+      "reward": 0.9506594003682186,
+      "quality_score": 0.9401068646616015,
+      "execution_time": 0.0014598369598388672,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 470,
+      "task_type": "tutorial",
+      "reward": 0.9605303343792475,
+      "quality_score": 0.9515732985292416,
+      "execution_time": 0.0014221668243408203,
+      "agent_sequence": [
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 471,
+      "task_type": "blog_post",
+      "reward": 0.8970375624357327,
+      "quality_score": 0.8697018106602055,
+      "execution_time": 0.0027420520782470703,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 472,
+      "task_type": "technical_article",
+      "reward": 0.916985705372442,
+      "quality_score": 0.984187722205487,
+      "execution_time": 0.0016407966613769531,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 473,
+      "task_type": "marketing_copy",
+      "reward": 0.8640785342025801,
+      "quality_score": 0.9184586836073453,
+      "execution_time": 0.0018732547760009766,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 474,
+      "task_type": "research_summary",
+      "reward": 0.9693211486466087,
+      "quality_score": 0.9622317247517893,
+      "execution_time": 0.0015981197357177734,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 475,
+      "task_type": "tutorial",
+      "reward": 0.9487005292522395,
+      "quality_score": 0.9373430104205531,
+      "execution_time": 0.0015010833740234375,
+      "agent_sequence": [
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 476,
+      "task_type": "blog_post",
+      "reward": 0.9851816583513451,
+      "quality_score": 0.9830846013285046,
+      "execution_time": 0.0014300346374511719,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 477,
+      "task_type": "technical_article",
+      "reward": 0.8705972291864765,
+      "quality_score": 0.8198346525979203,
+      "execution_time": 0.0016090869903564453,
+      "agent_sequence": [
+        3,
+        1,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 478,
+      "task_type": "marketing_copy",
+      "reward": 0.8906610771148755,
+      "quality_score": 0.8646981393639663,
+      "execution_time": 0.0014569759368896484,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 479,
+      "task_type": "research_summary",
+      "reward": 0.9314219957716898,
+      "quality_score": 0.9053170006419524,
+      "execution_time": 0.0014519691467285156,
+      "agent_sequence": [
+        0,
+        0,
+        0
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 480,
+      "task_type": "tutorial",
+      "reward": 0.9700027758678174,
+      "quality_score": 0.9575543014535696,
+      "execution_time": 0.0013720989227294922,
+      "agent_sequence": [
+        1,
+        1,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 481,
+      "task_type": "blog_post",
+      "reward": 0.9907893420704033,
+      "quality_score": 0.990210269493141,
+      "execution_time": 0.0018680095672607422,
+      "agent_sequence": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 482,
+      "task_type": "technical_article",
+      "reward": 0.9223775520909032,
+      "quality_score": 0.9048761745859392,
+      "execution_time": 0.0016570091247558594,
+      "agent_sequence": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 483,
+      "task_type": "marketing_copy",
+      "reward": 0.9947145082028263,
+      "quality_score": 0.9951575785799565,
+      "execution_time": 0.0016350746154785156,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 484,
+      "task_type": "research_summary",
+      "reward": 0.9150447905529462,
+      "quality_score": 0.9814112520633617,
+      "execution_time": 0.0015490055084228516,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 485,
+      "task_type": "tutorial",
+      "reward": 0.9666211179727144,
+      "quality_score": 0.9579114949666593,
+      "execution_time": 0.0015769004821777344,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 486,
+      "task_type": "blog_post",
+      "reward": 0.9051469349523211,
+      "quality_score": 0.9850740008140632,
+      "execution_time": 0.0016567707061767578,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 487,
+      "task_type": "technical_article",
+      "reward": 0.9214818562772009,
+      "quality_score": 0.9010127881237191,
+      "execution_time": 0.0015490055084228516,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 488,
+      "task_type": "marketing_copy",
+      "reward": 0.8394899876289721,
+      "quality_score": 0.7728601808269057,
+      "execution_time": 0.0015108585357666016,
+      "agent_sequence": [
+        3,
+        3,
+        3
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 489,
+      "task_type": "research_summary",
+      "reward": 0.9297173340562721,
+      "quality_score": 0.911854336339351,
+      "execution_time": 0.0015528202056884766,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 0.01
+    },
+    {
+      "episode": 490,
+      "task_type": "tutorial",
+      "reward": 0.9616149398867502,
+      "quality_score": 0.9547629322749955,
+      "execution_time": 0.0015201568603515625,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 0.01
+    }
+  ],
+  "dqn_state": {
+    "epsilon": 0.01,
+    "training_step": 427,
+    "buffer_size": 490,
+    "avg_loss": 1.5339094185829163
+  },
+  "thompson_state": {
+    "thompson_state": {
+      "alpha": [
+        300.0,
+        307.0,
+        260.0,
+        324.0
+      ],
+      "beta": [
+        1.0,
+        1.0,
+        98.0,
+        1.0
+      ],
+      "selections": [
+        299.0,
+        306.0,
+        356.0,
+        323.0
+      ],
+      "successes": [
+        299.0,
+        306.0,
+        259.0,
+        323.0
+      ]
+    },
+    "strategy_uses": {
+      "thompson": 188,
+      "ucb": 206
+    }
+  },
+  "pattern_stats": {
+    "Sequential": {
+      "usage_count": 112,
+      "avg_reward": 0.9555978226837547,
+      "usage_percentage": 22.857142857142858
+    },
+    "Parallel": {
+      "usage_count": 97,
+      "avg_reward": 0.8930757136715461,
+      "usage_percentage": 19.79591836734694
+    },
+    "Hierarchical": {
+      "usage_count": 67,
+      "avg_reward": 0.9015037154376354,
+      "usage_percentage": 13.673469387755102
+    },
+    "Collaborative": {
+      "usage_count": 105,
+      "avg_reward": 0.9585758832515485,
+      "usage_percentage": 21.428571428571427
+    },
+    "Adaptive": {
+      "usage_count": 109,
+      "avg_reward": 0.9169066471869123,
+      "usage_percentage": 22.244897959183675
+    }
+  }
+}

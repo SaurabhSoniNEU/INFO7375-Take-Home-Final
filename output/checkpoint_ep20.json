@@ -1,0 +1,363 @@
+{
+  "episode": 20,
+  "timestamp": "2025-12-10T15:11:18.102360",
+  "history": [
+    {
+      "episode": 1,
+      "task_type": "blog_post",
+      "reward": 0.8163666553000487,
+      "quality_score": 0.954699813281142,
+      "execution_time": 0.04228472709655762,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 2,
+      "task_type": "technical_article",
+      "reward": 0.795043180717607,
+      "quality_score": 0.9800708466227495,
+      "execution_time": 0.0027320384979248047,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 3,
+      "task_type": "marketing_copy",
+      "reward": 0.796192434436415,
+      "quality_score": 0.8801627523606734,
+      "execution_time": 0.010929107666015625,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 4,
+      "task_type": "research_summary",
+      "reward": 0.8595255789323094,
+      "quality_score": 0.9553617308304743,
+      "execution_time": 0.0005288124084472656,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 5,
+      "task_type": "tutorial",
+      "reward": 0.8553747009102627,
+      "quality_score": 0.9343635089742581,
+      "execution_time": 0.0017268657684326172,
+      "agent_sequence": [
+        1,
+        1,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 6,
+      "task_type": "blog_post",
+      "reward": 0.8578421305560299,
+      "quality_score": 0.9565612755288679,
+      "execution_time": 0.0003781318664550781,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 7,
+      "task_type": "technical_article",
+      "reward": 0.804088999371243,
+      "quality_score": 0.9727347866818287,
+      "execution_time": 0.001870870590209961,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 8,
+      "task_type": "marketing_copy",
+      "reward": 0.8031690467866737,
+      "quality_score": 0.8838031261524887,
+      "execution_time": 0.00037288665771484375,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 9,
+      "task_type": "research_summary",
+      "reward": 0.8649555731202652,
+      "quality_score": 0.9593615782833996,
+      "execution_time": 0.0006482601165771484,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 10,
+      "task_type": "tutorial",
+      "reward": 0.8525618836876636,
+      "quality_score": 0.9419193978961203,
+      "execution_time": 0.0024797916412353516,
+      "agent_sequence": [
+        0,
+        1,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 11,
+      "task_type": "blog_post",
+      "reward": 0.8639462939672987,
+      "quality_score": 0.9596772072381909,
+      "execution_time": 0.0002627372741699219,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 12,
+      "task_type": "technical_article",
+      "reward": 0.8233062398044398,
+      "quality_score": 1.0,
+      "execution_time": 9.298324584960938e-05,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 13,
+      "task_type": "marketing_copy",
+      "reward": 0.8030728036670596,
+      "quality_score": 0.8820548447390923,
+      "execution_time": 0.00015807151794433594,
+      "agent_sequence": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 14,
+      "task_type": "research_summary",
+      "reward": 0.862587247646657,
+      "quality_score": 0.9564331779484787,
+      "execution_time": 9.894371032714844e-05,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 15,
+      "task_type": "tutorial",
+      "reward": 0.8694436560797285,
+      "quality_score": 0.9615654972451025,
+      "execution_time": 0.0001430511474609375,
+      "agent_sequence": [
+        1,
+        0,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 16,
+      "task_type": "blog_post",
+      "reward": 0.8901090688083361,
+      "quality_score": 0.991180397865908,
+      "execution_time": 7.390975952148438e-05,
+      "agent_sequence": [
+        1,
+        2
+      ],
+      "coordination_pattern": 0,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 17,
+      "task_type": "technical_article",
+      "reward": 0.801053665461845,
+      "quality_score": 0.9614374719440011,
+      "execution_time": 7.104873657226562e-05,
+      "agent_sequence": [
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 1,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 18,
+      "task_type": "marketing_copy",
+      "reward": 0.7967087056994335,
+      "quality_score": 0.8700308954100325,
+      "execution_time": 9.274482727050781e-05,
+      "agent_sequence": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "coordination_pattern": 2,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 19,
+      "task_type": "research_summary",
+      "reward": 0.8716193518500948,
+      "quality_score": 0.966756183786247,
+      "execution_time": 8.797645568847656e-05,
+      "agent_sequence": [
+        0,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "coordination_pattern": 3,
+      "exploration_rate": 1.0
+    },
+    {
+      "episode": 20,
+      "task_type": "tutorial",
+      "reward": 0.8476265270695621,
+      "quality_score": 0.9330594640046463,
+      "execution_time": 0.00010275840759277344,
+      "agent_sequence": [
+        3,
+        0,
+        1
+      ],
+      "coordination_pattern": 4,
+      "exploration_rate": 1.0
+    }
+  ],
+  "dqn_state": {
+    "epsilon": 1.0,
+    "training_step": 0,
+    "buffer_size": 20,
+    "avg_loss": 0.0
+  },
+  "thompson_state": {
+    "thompson_state": {
+      "alpha": [
+        16.0,
+        13.0,
+        13.0,
+        14.0
+      ],
+      "beta": [
+        1.0,
+        1.0,
+        5.0,
+        1.0
+      ],
+      "selections": [
+        15.0,
+        12.0,
+        16.0,
+        13.0
+      ],
+      "successes": [
+        15.0,
+        12.0,
+        12.0,
+        13.0
+      ]
+    },
+    "strategy_uses": {
+      "thompson": 6,
+      "ucb": 10
+    }
+  },
+  "pattern_stats": {
+    "Sequential": {
+      "usage_count": 4,
+      "avg_reward": 0.8570660371579284,
+      "usage_percentage": 20.0
+    },
+    "Parallel": {
+      "usage_count": 4,
+      "avg_reward": 0.8058730213387837,
+      "usage_percentage": 20.0
+    },
+    "Hierarchical": {
+      "usage_count": 4,
+      "avg_reward": 0.7997857476473955,
+      "usage_percentage": 20.0
+    },
+    "Collaborative": {
+      "usage_count": 4,
+      "avg_reward": 0.8646719378873315,
+      "usage_percentage": 20.0
+    },
+    "Adaptive": {
+      "usage_count": 4,
+      "avg_reward": 0.8562516919368042,
+      "usage_percentage": 20.0
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "avg_reward": 0.9285965106579563,
+  "std_reward": 0.051862264137865564,
+  "min_reward": 0.7804080774862059,
+  "max_reward": 1.0,
+  "best_reward": 1.0,
+  "best_episode": 256,
+  "avg_quality": 0.9419591757376553,
+  "std_quality": 0.05420227366553606,
+  "min_quality": 0.7067829755751505,
+  "max_quality": 1.0,
+  "best_quality": 1.0,
+  "avg_execution_time": 0.0016783442497253418,
+  "std_execution_time": 0.0035233976138327096,
+  "initial_avg_reward": 0.8305120183818518,
+  "final_avg_reward": 0.9648913743150024,
+  "initial_avg_quality": 0.9419038816612002,
+  "final_avg_quality": 0.9642580282865462,
+  "improvement_percentage": 16.18030238683021,
+  "convergence_episode": 11,
+  "converged": true,
+  "reward_improvement_significant": true,
+  "quality_improvement_significant": false,
+  "reward_pvalue": 1.3919898750798095e-09,
+  "quality_pvalue": 0.05994932800024682,
+  "reward_tstatistic": 10.7784323837383,
+  "quality_tstatistic": 1.6327167302156842,
+  "stability_score": 0.9609759620980662,
+  "coefficient_of_variation": 0.04060875551635428,
+  "pattern_statistics": {
+    "Sequential": {
+      "usage_count": 116,
+      "avg_reward": 0.9562364468024818,
+      "usage_percentage": 23.200000000000003
+    },
+    "Parallel": {
+      "usage_count": 98,
+      "avg_reward": 0.8933837470864464,
+      "usage_percentage": 19.6
+    },
+    "Hierarchical": {
+      "usage_count": 69,
+      "avg_reward": 0.9025935578118851,
+      "usage_percentage": 13.8
+    },
+    "Collaborative": {
+      "usage_count": 106,
+      "avg_reward": 0.9587416344174076,
+      "usage_percentage": 21.2
+    },
+    "Adaptive": {
+      "usage_count": 111,
+      "avg_reward": 0.9181770409743533,
+      "usage_percentage": 22.2
+    }
+  }
+}
