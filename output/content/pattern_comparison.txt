@@ -1,0 +1,58 @@
+
+COORDINATION PATTERN COMPARISON
+================================
+
+Task: "Write about AI Safety"
+All patterns given same task, different coordination strategies:
+
+-------------------------------------------------------------------
+SEQUENTIAL PATTERN (Reward: 0.91)
+-------------------------------------------------------------------
+Research → Writing → Editor
+
+[Research] AI safety concerns include alignment problems, where AI 
+systems pursue objectives misaligned with human values, and capability 
+control challenges in advanced systems.
+
+[Writing] Ensuring AI remains beneficial as it grows more powerful 
+represents one of humanity's most pressing challenges. How do we build 
+systems that reliably do what we want, even as they surpass human 
+intelligence in narrow domains?
+
+[Editor] As AI systems grow more powerful, ensuring they remain aligned 
+with human values becomes critical. The challenge: building systems that 
+reliably pursue intended objectives, even when operating beyond human 
+supervision in complex domains.
+
+-------------------------------------------------------------------
+HIERARCHICAL PATTERN (Reward: 0.94)
+-------------------------------------------------------------------
+Technical Agent leads, others contribute
+
+[Lead: Technical] AI Safety Framework: Alignment, Control, Verification
+[Research] Academic consensus identifies three key areas...
+[Writing] Think of AI safety as programming with unprecedented stakes...
+[Editor] Final polish integrating all perspectives coherently...
+
+Result: Most comprehensive coverage, strong technical grounding.
+
+-------------------------------------------------------------------
+ADAPTIVE PATTERN (Reward: 0.95) ← HIGHEST
+-------------------------------------------------------------------
+Thompson Sampling picks best agent each step
+
+[Step 1: Technical Agent selected] Core safety challenges include...
+[Step 2: Editor Agent selected] Refining for clarity and impact...
+[Step 3: Writing Agent selected] Compelling call-to-action...
+
+Result: Highest quality by dynamically selecting optimal agent for 
+each content section.
+
+-------------------------------------------------------------------
+
+INSIGHT: Different patterns excel at different objectives
+- Sequential: Consistent, predictable (0.91)
+- Hierarchical: Comprehensive, well-structured (0.94)  
+- Adaptive: Highest quality, flexible (0.95)
+
+RL learns to pick the right pattern for each task automatically!

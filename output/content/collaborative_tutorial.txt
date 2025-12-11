@@ -1,0 +1,36 @@
+Task: Tutorial: "Getting Started with RL"
+Pattern: Collaborative (Iterative Refinement)
+Agents: Research, Writing, Editor - 2 iterations
+======================================================================
+
+
+[Iteration 1, Agent 1: Research]
+Reinforcement learning is a machine learning paradigm where agents learn 
+by interacting with an environment and receiving rewards or penalties.
+
+[Iteration 1, Agent 2: Writing]
+Think of reinforcement learning like training a dog: good behavior gets 
+treats (rewards), unwanted behavior doesn't. Over time, the dog learns 
+which actions lead to treats.
+
+[Iteration 1, Agent 3: Editor]
+Reinforcement learning trains agents through trial and error, much like 
+training a dog with treats. The agent tries different actions, receives 
+feedback (rewards or penalties), and gradually learns optimal behavior.
+
+[Iteration 2, Agent 1: Research]
+Key components include: states (situations), actions (choices), rewards 
+(feedback), and policy (learned strategy).
+
+[Iteration 2, Agent 2: Writing]
+Your RL journey starts with understanding four building blocks: the states 
+your agent observes, the actions it can take, the rewards that guide learning, 
+and the policy that emerges from experience.
+
+[Iteration 2, Agent 3: Editor]
+Your RL journey begins with four building blocks: states (what the agent 
+observes), actions (available choices), rewards (feedback guiding learning), 
+and the policy (learned decision strategy that emerges from experience).
+
+Quality Score: 0.93 | Coordination: Collaborative | Iterations: 2 | Time: 6.1s
+                
