@@ -116,7 +116,7 @@ This project develops an RL-enhanced orchestration system that:
 │  │  Sampler     │◄──────►│  (4 Agents)  │                   │
 │  │  (Beta Dist) │        └──────────────┘                   │
 │  └──────────────┘               │                           │
-│                                  ▼                          │
+│                                 ▼                           │
 │                    ┌─────────────────────────┐              │
 │                    │ • Research Agent        │              │
 │                    │ • Writing Agent         │              │
